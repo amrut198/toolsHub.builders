@@ -1,0 +1,13 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified Play Button Icon with solid orange color -->
+  <g transform="translate(0, 0)">
+    <!-- Circular Background -->
+    <circle cx="24" cy="24" r="20" fill="#FF6D00" opacity="0.2"/>
+    
+    <!-- Play Button Triangle -->
+    <path d="M18 12 L18 36 L36 24 Z" fill="#FF6D00"/>
+    
+    <!-- Accent Ring -->
+    <circle cx="24" cy="24" r="22" stroke="#FF8C00" stroke-width="2" fill="none" opacity="0.6"/>
+  </g>
+</svg>

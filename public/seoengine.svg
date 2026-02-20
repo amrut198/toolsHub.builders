@@ -1,0 +1,25 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="45" fill="#023E8A" opacity="0.1"/>
+  
+  <!-- Main SEO Symbol -->
+  <g transform="translate(20, 20)">
+    <!-- Search Icon -->
+    <circle cx="25" cy="25" r="18" stroke="#023E8A" stroke-width="4" fill="none"/>
+    <line x1="38" y1="38" x2="50" y2="50" stroke="#023E8A" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Rising Graph Inside -->
+    <path d="M 18 28 L 22 24 L 26 26 L 30 20" stroke="#48CAE4" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="18" cy="28" r="2" fill="#48CAE4"/>
+    <circle cx="22" cy="24" r="2" fill="#48CAE4"/>
+    <circle cx="26" cy="26" r="2" fill="#48CAE4"/>
+    <circle cx="30" cy="20" r="2" fill="#00B4D8"/>
+  </g>
+  
+  <!-- Sparkle Elements -->
+  <g opacity="0.8">
+    <path d="M 72 25 L 74 28 L 77 26 L 75 29 L 78 31 L 75 32 L 76 35 L 74 33 L 71 35 L 72 32 L 69 31 L 72 29 Z" fill="#023E8A"/>
+    <path d="M 80 45 L 81 47 L 83 46 L 82 48 L 84 49 L 82 50 L 83 52 L 81 51 L 79 52 L 80 50 L 78 49 L 80 48 Z" fill="#00B4D8"/>
+  </g>
+</svg>
+
