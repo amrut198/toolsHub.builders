@@ -23,17 +23,17 @@ export const TestimonialCard = (props: TestimonialCardProps) => {
     >
       <Blockquote.Caption display="flex" gap="3" alignItems="center">
         <Avatar.Root background="linear-gradient(135deg, var(--chakra-colors-brand-50) 0%, var(--chakra-colors-brand-100) 100%)"
-          >
+        >
           <Avatar.Fallback name={data.authorName} color='brand.600' />
         </Avatar.Root>
         <Box>
-          <Text fontWeight="medium" color="brand.600">
+          <Text fontWeight="medium" color="brand.600" fontSize={'md'}>
             {data.authorName}
           </Text>
-          <Text color="fg">{data.authorRole}</Text>
+          <Text color="fg" fontSize={'sm'}>{data.authorRole}</Text>
         </Box>
       </Blockquote.Caption>
-      <Blockquote.Content mt="4" flex="1">
+      <Blockquote.Content mt="4" flex="1" fontSize={'md'}>
         "{data.quote}"
       </Blockquote.Content>
     </Blockquote.Root>

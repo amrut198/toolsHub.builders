@@ -4,7 +4,7 @@ import { data } from './data'
 import { TestimonialCard } from './testimonial-card'
 
 export const Block = () => (
-  <Container pt={{ base: '14', md: '14' }} mb={10} maxW="7xl"
+  <Container pb={{ base: '14', md: '14' }} mb={10} maxW="7xl" bg={'#fff'}
     mx="auto" >
     <Stack gap="12">
       {/* Header Section */}
@@ -12,11 +12,15 @@ export const Block = () => (
         <Badge variant="subtle" size="lg" colorPalette="brand">
           Testimonials
         </Badge>
-        <Heading size={{ base: '4xl', md: '5xl' }} fontWeight="bold" lineHeight="1.1">
+        <Heading as="h2"
+          size="2xl"
+          fontWeight="extrabold"
+          color="gray.900"
+          maxW="2xl">
           What Our Users Say
         </Heading>
-        <Text color="fg.muted" textStyle="xl" maxW="3xl">
-          Discover how toolshub-builders is helping businesses grow and succeed.
+        <Text fontSize="lg" color="gray.600" maxW="2xl">
+          Real users. Real results. See how our tools save time every day.
         </Text>
       </Stack>
       <SimpleGrid gap="6" columns={{ base: 1, md: 2, lg: 3 }}>

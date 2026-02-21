@@ -11,27 +11,31 @@ import {
 
 export const Block = () => {
   return (
-    <Box bg="bg.subtle" py={{ base: '16', md: '16' }}>
+    <Box bg="#fff" pb={{ base: '16', md: '16' }}>
       <Container maxW="7xl">
-        <Stack gap={{ base: '12', md: '16' }}>
+        <Stack gap={{ base: '12' }}>
           {/* Header Section */}
           <Stack gap="6" align="center" textAlign="center">
             <Badge variant="subtle" size="lg" colorPalette="brand">
-              Our Story
+              Trusted by Thousands
             </Badge>
-            <Text color="fg.muted" textStyle="xl" maxW="3xl">
-              The Company Behind $20M in SaaS Revenue
-            </Text>
+            <Heading
+              size="2xl"
+              fontWeight="800"
+              color="gray.900"
+              maxW="2xl"
+              lineHeight={'normal'}
+            >
+              Free tools that actually work. No sign-up required.
+            </Heading>
           </Stack>
 
           {/* Stats Grid */}
           <SimpleGrid
             columns={{ base: 1, sm: 2, lg: 4 }}
             gap="0"
-            borderWidth="1px"
-            borderRadius="xl"
             overflow="hidden"
-            bg="bg.panel"
+            bg="#fff"
           >
             {stats.map((stat, index) => (
               <Box key={stat.label}>
@@ -48,29 +52,10 @@ export const Block = () => {
                   <Text fontWeight="semibold" fontSize="lg" color="fg.emphasized">
                     {stat.label}
                   </Text>
-                  <Text color="fg.muted" fontSize="sm">
+                  <Text color="fg.muted" fontSize="md">
                     {stat.description}
                   </Text>
                 </Stack>
-                {index < stats.length - 1 && (
-                  <>
-                    {/* Vertical separator for desktop */}
-                    <Separator
-                      orientation="vertical"
-                      position="absolute"
-                      right="0"
-                      top="50%"
-                      transform="translateY(-50%)"
-                      height="60%"
-                      hideBelow="lg"
-                    />
-                    {/* Horizontal separator for mobile */}
-                    <Separator
-                      orientation="horizontal"
-                      hideFrom="lg"
-                    />
-                  </>
-                )}
               </Box>
             ))}
           </SimpleGrid>
@@ -88,24 +73,24 @@ interface Stat {
 
 const stats: Stat[] = [
   {
-    value: '$20M+',
-    label: 'Revenue Generated',
-    description: 'Across our product portfolio',
+    value: '50+',
+    label: 'Free Tools',
+    description: 'No credit card. No limits.',
   },
   {
-    value: '10,000+',
-    label: 'Active Users',
-    description: 'Across 700+ companies',
+    value: '50K+',
+    label: 'Monthly Users',
+    description: 'Real people. Real results.',
   },
   {
-    value: '5 Products',
-    label: 'In Production',
-    description: 'All profitable, all growing',
+    value: '12',
+    label: 'Categories',
+    description: 'Text, images, audio, video, code.',
   },
   {
     value: '4.8/5',
-    label: 'Average Rating',
-    description: 'From verified customers',
+    label: 'User Rating',
+    description: 'Based on 2,000+ reviews.',
   },
 ]
 

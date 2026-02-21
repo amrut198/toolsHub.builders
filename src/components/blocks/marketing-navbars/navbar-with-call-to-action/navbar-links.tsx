@@ -1,14 +1,13 @@
 'use client'
 
 import { Link, Stack, type StackProps } from '@chakra-ui/react'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 const navItems = [
-  { label: 'Home', href: '#home' },
-  { label: 'Products', href: '#products' },
-  { label: 'Why toolshub-builders', href: '#solutions' },
-  { label: 'Pricing', href: '#pricing' },
-  { label: 'FAQ', href: '#faq' },
+  { label: 'Tools', href: '/tools' },
+  { label: 'Categories', href: '/categories' },
+  { label: 'New', href: '/new' },
+  { label: 'Popular', href: '/popular' },
 ]
 
 interface NavbarLinksProps extends StackProps {
@@ -16,75 +15,31 @@ interface NavbarLinksProps extends StackProps {
 }
 
 export const NavbarLinks = ({ onLinkClick, ...props }: NavbarLinksProps) => {
-  const [activeHash, setActiveHash] = useState('#home')
+  const [activePath, setActivePath] = useState('/')
 
-  useEffect(() => {
-    // Set initial hash or default to #home
-    const hash = window.location.hash || '#home'
-    setActiveHash(hash)
-
-    // Update active hash on hash change
-    const handleHashChange = () => {
-      const newHash = window.location.hash || '#home'
-      setActiveHash(newHash)
-    }
-
-    window.addEventListener('hashchange', handleHashChange)
-    return () => window.removeEventListener('hashchange', handleHashChange)
-  }, [])
-
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault()
-
-    // Get the target element
-    const targetId = href.replace('#', '')
-    const targetElement = document.getElementById(targetId)
-
-    if (targetElement) {
-      // Get navbar height to offset scroll position
-      const navbarHeight = 80 // Approximate navbar height
-      const targetPosition = targetElement.offsetTop - navbarHeight
-
-      // Smooth scroll to the target
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth'
-      })
-
-      // Update URL hash
-      window.history.pushState(null, '', href)
-      setActiveHash(href)
-    }
-
-    if (onLinkClick) {
-      onLinkClick()
-    }
+  const handleClick = (href: string) => {
+    setActivePath(href)
+    if (onLinkClick) onLinkClick()
   }
 
   return (
     <Stack direction={{ base: 'column', lg: 'row' }} gap={{ base: '6', md: '8' }} {...props}>
       {navItems.map((item) => {
-        const isActive = activeHash === item.href
+        const isActive = activePath === item.href
 
         return (
           <Link
             key={item.label}
             href={item.href}
-            onClick={(e) => handleClick(e, item.href)}
-            fontWeight={isActive ? 'bold' : 'semibold'}
-            color={isActive ? 'brand.solid' : 'fg.muted'}
+            onClick={() => handleClick(item.href)}
+            fontWeight="semibold"
+            fontSize="md"
+            color={isActive ? 'brand.600' : 'gray.600'}
             _hover={{
-              color: isActive ? 'brand.emphasized' : 'brand.fg',
+              color: 'brand.500',
               textDecoration: 'none',
             }}
-            _focus={{
-              outline: 'none',
-              boxShadow: 'none',
-            }}
-            _active={{
-              outline: 'none',
-              boxShadow: 'none',
-            }}
+            transition="color 0.15s ease"
           >
             {item.label}
           </Link>

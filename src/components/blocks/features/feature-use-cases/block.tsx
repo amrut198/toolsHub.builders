@@ -13,31 +13,33 @@ import {
 } from '@chakra-ui/react'
 import {
   LuMegaphone,
-  LuRocket,
   LuStore,
-  LuUtensilsCrossed,
-  LuScale,
   LuUsers,
-  LuTrendingUp,
-  LuClock,
-  LuDollarSign,
   LuCheck,
+  LuBookOpen,
+  LuCode,
+  LuPalette,
+  LuPenTool,
 } from 'react-icons/lu'
 
 export const Block = () => {
   return (
-    <Container maxW="7xl" py={'10'}>
+    <Container maxW="7xl" pb={'10'} bg="white">
       <Stack gap={{ base: '8', md: '8' }}>
         {/* Header Section */}
         <Stack gap="6" align="center" textAlign="center">
           <Badge variant="subtle" size="lg" colorPalette="brand">
             Use Cases
           </Badge>
-          <Heading size={{ base: '4xl', md: '5xl' }} fontWeight="bold" lineHeight="1.1">
-            Built for Every Business Size
+          <Heading
+            size="2xl"
+            fontWeight="extrabold"
+            color="gray.900"
+            maxW="2xl">
+            Built for Everyone
           </Heading>
-          <Text color="fg.muted" textStyle="xl" maxW="3xl">
-            From solo founders to enterprise teams, toolshub-builders scales with you.
+          <Text fontSize="lg" color="gray.600" maxW="2xl">
+            From students to professionals, tools that save time every day.
           </Text>
         </Stack>
 
@@ -47,7 +49,6 @@ export const Block = () => {
             <Box
               key={useCase.title}
               p="8"
-              bg="bg.muted"
               borderRadius="xl"
               borderWidth="1px"
               _hover={{
@@ -65,16 +66,16 @@ export const Block = () => {
                   {/* Icon and Title */}
                   <HStack gap="3" align="center">
                     <Box
-                      p="3"
+                      p="2"
                       borderRadius="lg"
                       bg="brand.subtle"
                       color="brand.solid"
                     >
-                      <Icon fontSize="2xl">
+                      <Icon fontSize="xl">
                         {useCase.icon}
                       </Icon>
                     </Box>
-                    <Heading size="lg" lineHeight="1.2" mt="1">
+                    <Heading size="xl" fontWeight="bold" lineHeight="1.2" mt="1">
                       {useCase.title}
                     </Heading>
                   </HStack>
@@ -96,7 +97,7 @@ export const Block = () => {
                       >
                         <LuCheck />
                       </Icon>
-                      <Text fontSize="sm" fontWeight="medium">
+                      <Text fontSize="md" fontWeight="medium">
                         {benefit}
                       </Text>
                     </HStack>
@@ -110,17 +111,14 @@ export const Block = () => {
         {/* Bottom CTA */}
         <Box
           p="8"
-          bg="bg.muted"
-          borderRadius="xl"
-          borderWidth="1px"
           textAlign="center"
         >
           <Stack gap="4">
             <Heading size="xl" color="colorPalette.fg" colorPalette="brand">
-              Ready to Get Started?
+              Ready to Save Time?
             </Heading>
             <Text fontSize="lg" color="fg.muted" maxW="4xl" mx="auto">
-              Join thousands of businesses already using toolshub-builders to scale their operations.
+              Join thousands who use our tools daily. No sign-up required.
             </Text>
           </Stack>
         </Box>
@@ -138,69 +136,69 @@ interface UseCase {
 
 const useCases: UseCase[] = [
   {
-    title: 'Marketing Agencies',
+    title: 'Students',
     description:
-      'Scale content production for multiple clients without hiring writers. Maintain consistent LinkedIn presence. Create demo-ready assets.',
+      'Ace assignments faster. Summarize papers, generate citations, rewrite essays in your voice. Graduate with less stress.',
+    icon: <LuBookOpen />,
+    benefits: [
+      '10x faster research',
+      'Better grades, less time',
+      'Plagiarism-free output',
+    ],
+  },
+  {
+    title: 'Marketers',
+    description:
+      'Create a month of social content in an hour. Generate ad copy that converts. Analyze competitor strategies instantly.',
     icon: <LuMegaphone />,
     benefits: [
-      '30+ articles/month per client',
-      '78% engagement increase',
-      'Zero hiring costs',
+      'Save 15+ hours weekly',
+      '3x engagement boost',
+      'Zero writer\'s block',
     ],
   },
   {
-    title: 'SaaS Startups',
+    title: 'Developers',
     description:
-      'Build organic visibility while focusing on product. Automate social media. Create perfect product demos that never crash.',
-    icon: <LuRocket />,
+      'Debug code in seconds. Generate documentation automatically. Convert between languages. Ship features faster.',
+    icon: <LuCode />,
     benefits: [
-      '4,000+ monthly clicks in 6 months',
-      '2 hours saved daily',
-      '100% uptime demos',
+      'Code 50% faster',
+      'Cleaner documentation',
+      'Fewer bugs shipped',
     ],
   },
   {
-    title: 'Small Businesses',
+    title: 'Designers',
     description:
-      'Get enterprise-grade tools at small business prices. No long-term contracts. Pay only for what you use.',
+      'Generate color palettes from descriptions. Create SVG icons. Extract design tokens. Focus on creativity, not grunt work.',
+    icon: <LuPalette />,
+    benefits: [
+      'Instant inspiration',
+      'Consistent design systems',
+      'Faster iterations',
+    ],
+  },
+  {
+    title: 'Writers',
+    description:
+      'Beat blank page syndrome. Rewrite clunky sentences. Expand outlines into drafts. Edit in your style, not robot-speak.',
+    icon: <LuPenTool />,
+    benefits: [
+      'Write 3x more daily',
+      'Cleaner first drafts',
+      'Never stuck for words',
+    ],
+  },
+  {
+    title: 'Small Business Owners',
+    description:
+      'Generate product descriptions. Write email newsletters. Create social posts. Marketing done without hiring agencies.',
     icon: <LuStore />,
     benefits: [
-      'Save $83K+ annually',
-      'Cancel anytime',
-      'First-party support',
-    ],
-  },
-  {
-    title: 'Restaurants & Hospitality',
-    description:
-      'Run your entire restaurant operation without losing 20% to commission-based POS systems. Keep your margins.',
-    icon: <LuUtensilsCrossed />,
-    benefits: [
-      'Zero commission fees',
-      'QR ordering built-in',
-      'Full inventory management',
-    ],
-  },
-  {
-    title: 'Legal Professionals',
-    description:
-      'Research Indian case law instantly. Draft documents in minutes. Check compliance automatically.',
-    icon: <LuScale />,
-    benefits: [
-      '80% faster research',
-      '24/7 legal intelligence',
-      'Trusted by MSMEs & corporates',
-    ],
-  },
-  {
-    title: 'Consultants & Coaches',
-    description:
-      'Build thought leadership on LinkedIn. Create SEO-optimized content. Showcase your expertise with professional demos.',
-    icon: <LuUsers />,
-    benefits: [
-      'Consistent online presence',
-      'Authority building',
-      'Lead generation automation',
+      'Save $5K+ monthly',
+      'Professional results fast',
+      'No expertise needed',
     ],
   },
 ]

@@ -16,10 +16,10 @@ interface JoinCommunityCTAProps {
     buttonText?: string;
 }
 
-export function Block({ 
-    tagline = "Join Our Community",
-    subline = "Connect with innovators, share ideas, and grow together",
-    buttonText = "Join Now"
+export function Block({
+    tagline = "Get New Tools Before Anyone Else",
+    subline = "Join 15,000+ members. Weekly tool drops. Tips & tricks. Zero spam.",
+    buttonText = "Join Free"
 }: JoinCommunityCTAProps) {
     return (
         <Box

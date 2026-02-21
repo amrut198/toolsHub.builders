@@ -6,30 +6,30 @@ import { FiArrowRight } from 'react-icons/fi';
 const steps = [
   {
     number: '1',
-    title: 'Pick Your Product',
-    description: 'Choose the tool that solves your immediate problem. Start with one. Add more as you grow.',
-    buttonText: 'Browse Products',
-    buttonHref: '#products',
+    title: 'Find Your Tool',
+    description: 'Browse 50+ tools by category or search by task. Each tool solves one specific problem. Fast.',
+    buttonText: 'Browse Tools',
+    buttonHref: '#tools',
   },
   {
     number: '2',
-    title: 'Start Free Trial',
-    description: 'No credit card required. Full access for 7-14 days (depending on product). See results before you pay.',
-    buttonText: 'Try Free',
-    buttonHref: '#trial',
+    title: 'Use It Instantly',
+    description: 'No sign-up. No forms. Just open and use. Your data isn\'t stored. Privacy-first, always.',
+    buttonText: 'Try Random Tool',
+    buttonHref: '#random',
   },
   {
     number: '3',
-    title: 'Go Live in Minutes',
-    description: '5-minute setup. Zero technical knowledge required. First results within 24 hours.',
-    buttonText: 'Get Started',
-    buttonHref: '#signup',
+    title: 'Get Results',
+    description: 'Copy, download, or share. Bookmark favorites. Come back anytime. Everything stays free, forever.',
+    buttonText: 'Start Using',
+    buttonHref: '#start',
   },
 ];
 
 export function Block() {
   return (
-    <Box pb={{ base: 10 }}>
+    <Box pb={{ base: 10 }} bg={'#fff'}>
       <Container maxW="7xl">
         {/* Header */}
         <VStack maxW="3xl" mx="auto" textAlign="center" gap={{ base: '4', md: '6' }} mb={{ base: '10', md: '10' }}>
@@ -37,12 +37,16 @@ export function Block() {
             Getting Started
           </Badge>
 
-          <Heading as="h2" textStyle={{ base: '3xl', md: '5xl' }} fontWeight="bold">
-            Three Ways to Start
+          <Heading as="h2"
+            size="2xl"
+            fontWeight="extrabold"
+            color="gray.900"
+            maxW="2xl">
+            How It Works
           </Heading>
 
-          <Text color="fg.muted" textStyle={{ base: 'md', md: 'lg' }}>
-            Simple, transparent, no-nonsense onboarding.
+          <Text fontSize="lg" color="gray.600" maxW="2xl">
+            Three simple steps. No sign-up required.
           </Text>
         </VStack>
 
@@ -64,30 +68,13 @@ export function Block() {
                 transform: 'translateY(-4px)',
               }}
             >
-              {/* Number Badge */}
-              <Flex
-                position="absolute"
-                top="-4"
-                left="8"
-                align="center"
-                justify="center"
-                w="12"
-                h="12"
-                bg="brand.500"
-                color="white"
-                borderRadius="full"
-                fontWeight="bold"
-                fontSize="xl"
-              >
-                {step.number}
-              </Flex>
 
-              <VStack align="stretch" gap={4} mt={6}>
-                <Heading as="h3" size="lg" fontWeight="semibold">
+              <VStack align="center" gap={4}>
+                <Heading as="h3" size="lg" fontWeight="700">
                   {step.title}
                 </Heading>
 
-                <Text color="fg.muted" lineHeight="tall">
+                <Text fontSize="md" color="gray.600" textAlign="center" >
                   {step.description}
                 </Text>
 
@@ -95,15 +82,14 @@ export function Block() {
                   variant="outline"
                   colorPalette="brand"
                   size="lg"
-                  mt={'3'}
                   position={'absolute'}
-                  bottom={3}
+                  bottom={8}
                   _hover={{
                     bg: 'brand.50',
                   }}
                   asChild
                 >
-                  <a href={step.buttonHref}>
+                  <a href={'/tool'}>
                     <Flex align="center" gap={2}>
                       <Text>{step.buttonText}</Text>
                       <FiArrowRight />
@@ -120,17 +106,14 @@ export function Block() {
         <Stack gap="6">
           <Box
             p="8"
-            bg="bg.muted"
-            borderRadius="xl"
-            borderWidth="1px"
             textAlign="center"
           >
             <Stack gap="4">
               <Heading size="xl" color="colorPalette.fg" colorPalette="brand">
-                Still Have Questions?
+                Need a Specific Tool?
               </Heading>
               <Text fontSize="lg" color="fg.muted" maxW="4xl" mx="auto">
-                Book a 15-minute call with our team. We&apos;ll help you pick the right product and get you set up.
+                Can&apos;t find what you need? We&apos;re adding new tools weekly. Suggest a tool and we&apos;ll build it.
               </Text>
 
               <Box>
@@ -143,9 +126,9 @@ export function Block() {
                   }}
                   asChild
                 >
-                  <a href="#contact">
+                  <a href="/tool">
                     <Flex align="center" gap={2}>
-                      <Text>Schedule a Call</Text>
+                      <Text>Suggest a Tool</Text>
                       <FiArrowRight />
                     </Flex>
                   </a>

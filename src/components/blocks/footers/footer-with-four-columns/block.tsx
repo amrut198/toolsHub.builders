@@ -12,101 +12,99 @@ import {
   VStack,
   Separator,
   Flex,
-  Button,
 } from '@chakra-ui/react';
 import {
-  FaLinkedin,
   FaTwitter,
   FaGithub,
+  FaLinkedin,
   FaYoutube,
-  FaInstagram,
 } from 'react-icons/fa';
 import { LuShield, LuLock, LuCheck } from 'react-icons/lu';
 
 const footerLinks = {
-  products: {
-    title: 'Products',
+  tools: {
+    title: 'Tools',
     links: [
-      { label: 'SEOengine.ai', href: 'https://seoengine.ai' },
-      { label: 'Autoposting.ai', href: 'https://autoposting.ai' },
-      { label: 'Niyam.ai', href: 'https://niyam.ai' },
-      { label: 'HappyDemo.io', href: 'https://happydemo.io' },
-      { label: 'Jalpaan.ai', href: 'https://jalpaan.ai' },
+      { label: 'Text Tools', href: '/category/text' },
+      { label: 'Image Tools', href: '/category/image' },
+      { label: 'Audio Tools', href: '/category/audio' },
+      { label: 'Video Tools', href: '/category/video' },
+      { label: 'Code Tools', href: '/category/code' },
     ],
   },
-  features: {
-    title: 'Features',
+  categories: {
+    title: 'Categories',
     links: [
-      { label: 'AI-Powered Tools', href: '#features' },
-      { label: 'Pay-As-You-Go', href: '#pricing' },
-      { label: 'No Vendor Lock-In', href: '#why' },
-      { label: 'First-Party Support', href: '#support' },
-      { label: 'Integrations', href: '#integrations' },
+      { label: 'All Tools', href: '/tools' },
+      { label: 'Popular', href: '/popular' },
+      { label: 'New', href: '/new' },
+      { label: 'Productivity', href: '/category/productivity' },
+      { label: 'Developer Tools', href: '/category/developer' },
     ],
   },
   resources: {
     title: 'Resources',
     links: [
-      { label: 'Case Studies', href: '#case-studies' },
-      { label: 'ROI Calculator', href: '#roi' },
-      { label: 'Documentation', href: '#docs' },
-      { label: 'Blog', href: '#blog' },
-      { label: 'API', href: '#api' },
+      { label: 'Blog', href: '/blog' },
+      { label: 'Tutorials', href: '/tutorials' },
+      { label: 'API Documentation', href: '/docs' },
+      { label: 'Changelog', href: '/changelog' },
+      { label: 'Roadmap', href: '/roadmap' },
     ],
   },
   company: {
     title: 'Company',
     links: [
-      { label: 'About TinyCheque', href: 'https://tinycheque.com/company/about-us' },
-      { label: 'Careers', href: '#careers' },
-      { label: 'Partner Program', href: 'https://tinycheque.com/partnership' },
+      { label: 'About Us', href: '/about' },
+      { label: 'Careers', href: '/careers' },
+      { label: 'Partner Program', href: '/partners' },
       { label: 'Join Our Community', href: 'https://forms.toolshub.builders/join' },
-      { label: 'Contact Us', href: '#contact' },
+      { label: 'Contact Us', href: '/contact' },
     ],
   },
   legal: {
     title: 'Legal',
     links: [
-      { label: 'Privacy Policy', href: '#privacy' },
-      { label: 'Terms of Service', href: '#terms' },
-      { label: 'Refund Policy', href: '#refund' },
-      { label: 'Cookie Policy', href: '#cookies' },
-      { label: 'Security', href: '#security' },
+      { label: 'Privacy Policy', href: '/privacy' },
+      { label: 'Terms of Service', href: '/terms' },
+      { label: 'Cookie Policy', href: '/cookies' },
+      { label: 'Security', href: '/security' },
     ],
   },
 };
 
 const socialLinks = [
-  { icon: FaLinkedin, href: 'https://www.linkedin.com/in/uditgoenka/', label: 'LinkedIn' },
-  { icon: FaTwitter, href: 'https://x.com/iuditg', label: 'Twitter' },
-  { icon: FaYoutube, href: 'https://www.youtube.com/@uditgoenka', label: 'YouTube' },
+  { icon: FaTwitter, href: 'https://twitter.com/toolshub', label: 'Twitter' },
+  { icon: FaGithub, href: 'https://github.com/toolshub', label: 'GitHub' },
+  { icon: FaLinkedin, href: 'https://linkedin.com/company/toolshub', label: 'LinkedIn' },
+  { icon: FaYoutube, href: 'https://youtube.com/@toolshub', label: 'YouTube' },
 ];
 
 const trustBadges = [
-  { icon: LuCheck, text: '99.9% Uptime SLA' },
+  { icon: LuCheck, text: '50K+ Monthly Users' },
   { icon: LuShield, text: 'GDPR Compliant' },
-  { icon: LuLock, text: 'Bank-Grade Encryption' },
+  { icon: LuLock, text: 'No Data Tracking' },
 ];
 
 export function Block() {
   return (
-    <Box bg="bg.muted" pt={{ base: '10' }} pb="8">
+    <Box bg="gray.100" pt={{ base: '12', md: '14' }} pb="8">
       <Container maxW="7xl">
         <Stack gap={{ base: '10', md: '10' }}>
           {/* Main Footer Content */}
           <SimpleGrid columns={{ base: 1, sm: 2, md: 3, lg: 5 }} gap={{ base: '8', md: '6' }}>
-            {/* Products Column */}
-            <VStack align="flex-start" gap="4" ml={10}>
-              <Heading size="sm" fontWeight="semibold">
-                {footerLinks.products.title}
+            {/* Tools Column */}
+            <VStack align="flex-start" gap="4">
+              <Heading size="md" fontWeight="extrabold" color="gray.900">
+                {footerLinks.tools.title}
               </Heading>
               <Stack gap="3">
-                {footerLinks.products.links.map((link) => (
+                {footerLinks.tools.links.map((link) => (
                   <Link
                     key={link.label}
                     href={link.href}
-                    fontSize="sm"
-                    color="fg.muted"
+                    fontSize="md"
+                    color="gray.600"
                     _hover={{ color: 'brand.500' }}
                   >
                     {link.label}
@@ -115,18 +113,18 @@ export function Block() {
               </Stack>
             </VStack>
 
-            {/* Features Column */}
-            <VStack align="flex-start" gap="4" ml={10}>
-              <Heading size="sm" fontWeight="semibold">
-                {footerLinks.features.title}
+            {/* Categories Column */}
+            <VStack align="flex-start" gap="4">
+              <Heading size="md" fontWeight="extrabold" color="gray.900">
+                {footerLinks.categories.title}
               </Heading>
               <Stack gap="3">
-                {footerLinks.features.links.map((link) => (
+                {footerLinks.categories.links.map((link) => (
                   <Link
                     key={link.label}
                     href={link.href}
-                    fontSize="sm"
-                    color="fg.muted"
+                    fontSize="md"
+                    color="gray.600"
                     _hover={{ color: 'brand.500' }}
                   >
                     {link.label}
@@ -136,8 +134,8 @@ export function Block() {
             </VStack>
 
             {/* Resources Column */}
-            <VStack align="flex-start" gap="4" ml={10}>
-              <Heading size="sm" fontWeight="semibold">
+            <VStack align="flex-start" gap="4">
+              <Heading size="md" fontWeight="extrabold" color="gray.900">
                 {footerLinks.resources.title}
               </Heading>
               <Stack gap="3">
@@ -145,8 +143,8 @@ export function Block() {
                   <Link
                     key={link.label}
                     href={link.href}
-                    fontSize="sm"
-                    color="fg.muted"
+                    fontSize="md"
+                    color="gray.600"
                     _hover={{ color: 'brand.500' }}
                   >
                     {link.label}
@@ -156,8 +154,8 @@ export function Block() {
             </VStack>
 
             {/* Company Column */}
-            <VStack align="flex-start" gap="4" ml={10}>
-              <Heading size="sm" fontWeight="semibold">
+            <VStack align="flex-start" gap="4">
+              <Heading size="md" fontWeight="extrabold" color="gray.900">
                 {footerLinks.company.title}
               </Heading>
               <Stack gap="3">
@@ -165,8 +163,8 @@ export function Block() {
                   <Link
                     key={link.label}
                     href={link.href}
-                    fontSize="sm"
-                    color="fg.muted"
+                    fontSize="md"
+                    color="gray.600"
                     _hover={{ color: 'brand.500' }}
                   >
                     {link.label}
@@ -176,8 +174,8 @@ export function Block() {
             </VStack>
 
             {/* Legal Column */}
-            <VStack align="flex-start" gap="4" ml={10}>
-              <Heading size="sm" fontWeight="semibold">
+            <VStack align="flex-start" gap="4">
+              <Heading size="md" fontWeight="extrabold" color="gray.900">
                 {footerLinks.legal.title}
               </Heading>
               <Stack gap="3">
@@ -185,8 +183,8 @@ export function Block() {
                   <Link
                     key={link.label}
                     href={link.href}
-                    fontSize="sm"
-                    color="fg.muted"
+                    fontSize="md"
+                    color="gray.600"
                     _hover={{ color: 'brand.500' }}
                   >
                     {link.label}
@@ -196,37 +194,7 @@ export function Block() {
             </VStack>
           </SimpleGrid>
 
-          <Separator p={0} m={0} gap={5}/>
-
-          {/* Office Addresses */}
-          <SimpleGrid columns={{ base: 1, md: 2 }}>
-            {/* India Office */}
-            <VStack align="flex-start" gap="3" ml={10}>
-              <Heading size="sm" fontWeight="semibold">
-                India Office
-              </Heading>
-              <Text fontSize="sm" color="fg.muted" lineHeight="tall">
-                TinyCheque Ventures Private Limited
-                Floor No.: 9 Floor, Tower-B3, Unit No-935,
-                Spaze I Tech Park, Sohna Road,
-                Gurugram, Haryana, 122018, India
-              </Text>
-            </VStack>
-
-            {/* US Office */}
-            <VStack align="flex-start" gap="3" ml={10}>
-              <Heading size="sm" fontWeight="semibold">
-                US Office
-              </Heading>
-              <Text fontSize="sm" color="fg.muted" lineHeight="tall">
-                TinyCheque, Inc.
-                131 Continental Dr, Suite 305,
-                Newark, Delaware 19713, USA
-              </Text>
-            </VStack>
-          </SimpleGrid>
-
-          <Separator />
+          <Separator borderColor="gray.200" />
 
           {/* Bottom Section */}
           <Stack
@@ -235,28 +203,15 @@ export function Block() {
             justify="space-between"
             align={{ base: 'flex-start', md: 'center' }}
           >
-            {/* Copyright & Trust Badges */}
-            <Stack gap="4" flex="1" ml={10}>
-              <Text fontSize="sm" color="fg.muted">
-                © 2025 toolshub.builders | All products built and owned by TinyCheque
+            {/* Copyright */}
+            <Stack gap="2">
+              <Text fontSize="md" color="gray.600">
+                © 2025 toolsHub.builders — Free AI tools for everyone
               </Text>
             </Stack>
 
-            {/* Social Links and Join Our Community Button */}
-            <HStack gap="4" ml={'10'} mr={'10'} flexWrap="wrap">
-              <Button
-                asChild
-                size="sm"
-                colorPalette="brand"
-                bg="brand.500"
-                color="white"
-                _hover={{ bg: "brand.600" }}
-                _active={{ bg: "brand.700" }}
-              >
-                <a href="https://forms.toolshub.builders/join" target="_blank" rel="noopener noreferrer">
-                  Join Our Community
-                </a>
-              </Button>
+            {/* Social Links */}
+            <HStack gap="4" flexWrap="wrap">
               {socialLinks.map((social) => (
                 <Link
                   key={social.label}
@@ -267,8 +222,8 @@ export function Block() {
                 >
                   <Box
                     as={social.icon}
-                    fontSize="xl"
-                    color="fg.muted"
+                    fontSize="lg"
+                    color="gray.500"
                     _hover={{ color: 'brand.500' }}
                     transition="color 0.2s"
                   />
@@ -277,18 +232,19 @@ export function Block() {
             </HStack>
           </Stack>
 
-          <Separator />
-          
-          <Flex gap="6" wrap="wrap" justifyContent={'center'}>
-                {trustBadges.map((badge) => (
-                  <HStack key={badge.text} gap="2">
-                    <Box as={badge.icon} color="brand.500" fontSize="md" />
-                    <Text fontSize="xs" color="fg.muted" fontWeight="medium">
-                      {badge.text}
-                    </Text>
-                  </HStack>
-                ))}
-              </Flex>
+          <Separator borderColor="gray.200" />
+
+          {/* Trust Badges */}
+          <Flex gap="6" wrap="wrap" justifyContent="center">
+            {trustBadges.map((badge) => (
+              <HStack key={badge.text} gap="2">
+                <Box as={badge.icon} color="success.500" fontSize="sm" />
+                <Text fontSize="md" color="gray.600" fontWeight="medium">
+                  {badge.text}
+                </Text>
+              </HStack>
+            ))}
+          </Flex>
         </Stack>
       </Container>
     </Box>

@@ -1,53 +1,52 @@
 export const faqs = [
   {
-    question: 'Is there really a free trial with no credit card required?',
+    question: 'Are all tools really free forever?',
     answer:
-      "Yes! Every product offers a 7-14 day free trial (varies by product) with full feature access. No credit card needed. We only ask for payment details when you're ready to continue.",
+      "Yes! All tools on toolsHub.builders are completely free with no hidden fees, no premium tiers, and no credit card required. We believe powerful AI tools should be accessible to everyone.",
   },
   {
-    question: "What's your pricing model?",
+    question: "Do I need to create an account to use the tools?",
     answer:
-      'It varies by product. SEOengine.ai is pay-as-you-go at $5/article. Other products have monthly subscriptions ranging from $29-$99/month. All pricing is transparent with no hidden fees. Cancel anytime.'
+      'No account required. Simply click on any tool and start using it immediately. No sign-up, no email verification, no waiting. Just instant access to all tools.',
   },
   {
-    question: 'Can I really cancel anytime?',
+    question: 'Is my data safe and private?',
     answer:
-      'Absolutely. No annual contracts. No cancellation fees. No hoops to jump through. Cancel with one click from your dashboard. Your data remains accessible for 30 days after cancellation.'
+      "Absolutely. We don't store your input data. Everything you process stays in your browser and is never sent to our servers. Your privacy is our priority.",
   },
   {
-    question: 'Do you offer refunds?',
+    question: 'How often do you add new tools?',
     answer:
-      'Yes! If you re not satisfied within the first 30 days, email us for a full refund. No questions asked. We want happy customers, not trapped ones.'
+      'We add new tools weekly. Our team constantly works on expanding the library based on user feedback and emerging AI capabilities. Follow us on social media for updates.',
   },
   {
-    question: 'How is support handled?',
+    question: 'Can I use these tools for commercial projects?',
     answer:
-
-      'First-party support from our founding team. Email hello@tinycheque.com and get responses within hours, not days. For urgent issues, we offer priority support channels to paying customers.'
+      "Yes! All tools are free for both personal and commercial use. Whether you're a student, creator, developer, or business owner, you can use our tools without restrictions.",
   },
   {
-    question: 'Can I use multiple products together?',
+    question: 'Do the tools have any usage limits?',
     answer:
-      'Yes! All toolshub-builders products are designed to work independently or together. Use one, some, or all five. Mix and match based on your needs.'
+      'No limits. Use any tool as many times as you need. Unlike other platforms, we dont impose daily caps or restrict features. Everything is fully functional, every time.',
   },
   {
-    question: 'What about data security and privacy?',
+    question: 'What browsers and devices are supported?',
     answer:
-      'Bank-grade encryption. GDPR compliant. SOC 2 Type II certified. Your data is yours—we never sell it, share it, or use it for anything beyond providing you service.'
+      'All tools work on any modern browser (Chrome, Firefox, Safari, Edge) on desktop, tablet, and mobile devices. No downloads or installations required.',
   },
   {
-    question: 'Do you offer discounts for startups or nonprofits?',
+    question: 'Can I request a new tool?',
     answer:
-      'Yes! Email us at hello@tinycheque.com with details about your organization. We offer special pricing for early-stage startups, nonprofits, and educational institutions.'
+      "Yes! We love hearing from our users. If there's a tool you'd like to see, reach out through our contact page or join our community to share your idea. We prioritize features based on user demand.",
   },
   {
-    question: "What if I need a feature that doesn't exist?",
+    question: 'How do you keep the tools free?',
     answer:
-      'Tell us! We ship fast and prioritize customer requests. Many features in our products today came directly from customer feedback. Email your request to hello@tinycheque.com.'
+      'We support our platform through non-intrusive advertising. This allows us to keep all tools free for everyone while maintaining and improving our services.',
   },
   {
-    question: "How do I know you'll still be around in a year?",
+    question: 'Are there any AI-powered tools for developers?',
     answer:
-      'Were bootstrapped and profitable. No VC funding means no pressure to burn cash or exit. Weve been building SaaS for 15+ years and generated $20M+ in revenue. Were here for the long haul.'
+      "Yes! We have a dedicated category for code tools including code generation, code explanation, code formatting, JSON tools, regex testers, and more. Perfect for developers of all skill levels.",
   },
 ]
