@@ -15,13 +15,13 @@ const securitySchema = {
   '@type': 'WebPage',
   name: 'Security Policy',
   description: shortDescription,
-  url: 'https://toolshub.builders/security',
+  url: 'https://tools-hub-builders.vercel.app/security',
   datePublished: publishDate,
   dateModified: lastModified,
   publisher: {
     '@type': 'Organization',
     name: 'toolsHub.builders',
-    url: 'https://toolshub.builders',
+    url: 'https://tools-hub-builders.vercel.app',
   },
 }
 
@@ -29,16 +29,16 @@ export const metadata: Metadata = {
   title: 'Security Policy | toolsHub.builders',
   description: shortDescription,
   alternates: {
-    canonical: 'https://toolshub.builders/security',
+    canonical: 'https://tools-hub-builders.vercel.app/security',
     languages: {
-      'en': 'https://toolshub.builders/security',
-      'en-US': 'https://toolshub.builders/security',
+      'en': 'https://tools-hub-builders.vercel.app/security',
+      'en-US': 'https://tools-hub-builders.vercel.app/security',
     },
   },
   openGraph: {
     title: 'Security Policy | toolsHub.builders',
     description: shortDescription,
-    url: 'https://toolshub.builders/security',
+    url: 'https://tools-hub-builders.vercel.app/security',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [{ url: '/opengraph-image?d7b150282b7b5bc', width: 1200, height: 630 }],

@@ -15,13 +15,13 @@ const cookieSchema = {
   '@type': 'WebPage',
   name: 'Cookie Policy',
   description: shortDescription,
-  url: 'https://toolshub.builders/cookies',
+  url: 'https://tools-hub-builders.vercel.app/cookies',
   datePublished: publishDate,
   dateModified: lastModified,
   publisher: {
     '@type': 'Organization',
     name: 'toolsHub.builders',
-    url: 'https://toolshub.builders',
+    url: 'https://tools-hub-builders.vercel.app',
   },
 }
 
@@ -29,16 +29,16 @@ export const metadata: Metadata = {
   title: 'Cookie Policy | toolsHub.builders',
   description: shortDescription,
   alternates: {
-    canonical: 'https://toolshub.builders/cookies',
+    canonical: 'https://tools-hub-builders.vercel.app/cookies',
     languages: {
-      'en': 'https://toolshub.builders/cookies',
-      'en-US': 'https://toolshub.builders/cookies',
+      'en': 'https://tools-hub-builders.vercel.app/cookies',
+      'en-US': 'https://tools-hub-builders.vercel.app/cookies',
     },
   },
   openGraph: {
     title: 'Cookie Policy | toolsHub.builders',
     description: shortDescription,
-    url: 'https://toolshub.builders/cookies',
+    url: 'https://tools-hub-builders.vercel.app/cookies',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [{ url: '/opengraph-image?d7b150282b7b5bc', width: 1200, height: 630 }],

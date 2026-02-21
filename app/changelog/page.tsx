@@ -15,13 +15,13 @@ const changelogSchema = {
   '@type': 'WebPage',
   name: 'Changelog',
   description: shortDescription,
-  url: 'https://toolshub.builders/changelog',
+  url: 'https://tools-hub-builders.vercel.app/changelog',
   datePublished: publishDate,
   dateModified: lastModified,
   publisher: {
     '@type': 'Organization',
     name: 'toolsHub.builders',
-    url: 'https://toolshub.builders',
+    url: 'https://tools-hub-builders.vercel.app',
   },
 }
 
@@ -33,62 +33,62 @@ const changelog: {
   description: string
   features: string[]
 }[] = [
-  {
-    version: '1.0.0',
-    date: 'February 2026',
-    type: 'launch' as const,
-    title: 'Platform Launch',
-    description: 'Initial release of toolsHub.builders with 50+ free AI tools across text, image, audio, video, and code categories.',
-    features: [
-      '50+ AI-powered tools',
-      'No sign-up required',
-      'Client-side processing for privacy',
-      'Mobile-responsive design',
-      'Instant results',
-    ],
-  },
-  {
-    version: '0.9.0',
-    date: 'January 2026',
-    type: 'beta' as const,
-    title: 'Beta Release',
-    description: 'Private beta testing with core tools and user feedback collection.',
-    features: [
-      'Core 20 tools released',
-      'Beta testing program',
-      'User feedback integration',
-      'Performance optimization',
-    ],
-  },
-  {
-    version: '0.5.0',
-    date: 'December 2025',
-    type: 'alpha' as const,
-    title: 'Alpha Release',
-    description: 'Initial alpha release with foundational tools and basic UI.',
-    features: [
-      'MVP with 10 essential tools',
-      'Basic user interface',
-      'Core infrastructure setup',
-    ],
-  },
-]
+    {
+      version: '1.0.0',
+      date: 'February 2026',
+      type: 'launch' as const,
+      title: 'Platform Launch',
+      description: 'Initial release of toolsHub.builders with 50+ free AI tools across text, image, audio, video, and code categories.',
+      features: [
+        '50+ AI-powered tools',
+        'No sign-up required',
+        'Client-side processing for privacy',
+        'Mobile-responsive design',
+        'Instant results',
+      ],
+    },
+    {
+      version: '0.9.0',
+      date: 'January 2026',
+      type: 'beta' as const,
+      title: 'Beta Release',
+      description: 'Private beta testing with core tools and user feedback collection.',
+      features: [
+        'Core 20 tools released',
+        'Beta testing program',
+        'User feedback integration',
+        'Performance optimization',
+      ],
+    },
+    {
+      version: '0.5.0',
+      date: 'December 2025',
+      type: 'alpha' as const,
+      title: 'Alpha Release',
+      description: 'Initial alpha release with foundational tools and basic UI.',
+      features: [
+        'MVP with 10 essential tools',
+        'Basic user interface',
+        'Core infrastructure setup',
+      ],
+    },
+  ]
 
 export const metadata: Metadata = {
   title: 'Changelog | toolsHub.builders',
   description: shortDescription,
   keywords: ['changelog', 'updates', 'release notes', 'new features', 'product updates'],
   alternates: {
-    canonical: 'https://toolshub.builders/changelog',
+    canonical: 'https://tools-hub-builders.vercel.app/changelog',
     languages: {
-      'en': 'https://toolshub.builders/changelog',
-      'en-US': 'https://toolshub.builders/changelog',
+      'en': 'https://tools-hub-builders.vercel.app/changelog',
+      'en-US': 'https://tools-hub-builders.vercel.app/changelog',
     },
   },
   openGraph: {
     title: 'Changelog | toolsHub.builders',
     description: shortDescription,
-    url: 'https://toolshub.builders/changelog',
+    url: 'https://tools-hub-builders.vercel.app/changelog',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [{ url: '/opengraph-image?d7b150282b7b5bc', width: 1200, height: 630 }],

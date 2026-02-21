@@ -15,7 +15,7 @@ const privacySchema = {
   '@type': 'WebPage',
   name: 'Privacy Policy',
   description: shortDescription,
-  url: 'https://toolshub.builders/privacy',
+  url: 'https://tools-hub-builders.vercel.app/privacy',
   datePublished: publishDate,
   dateModified: lastModified,
   mainEntity: {
@@ -26,7 +26,7 @@ const privacySchema = {
     publisher: {
       '@type': 'Organization',
       name: 'toolsHub.builders',
-      url: 'https://toolshub.builders',
+      url: 'https://tools-hub-builders.vercel.app',
     },
   },
 }
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
   title: 'Privacy Policy | toolsHub.builders',
   description: shortDescription,
   alternates: {
-    canonical: 'https://toolshub.builders/privacy',
+    canonical: 'https://tools-hub-builders.vercel.app/privacy',
     languages: {
-      'en': 'https://toolshub.builders/privacy',
-      'en-US': 'https://toolshub.builders/privacy',
+      'en': 'https://tools-hub-builders.vercel.app/privacy',
+      'en-US': 'https://tools-hub-builders.vercel.app/privacy',
     },
   },
   openGraph: {
     title: 'Privacy Policy | toolsHub.builders',
     description: shortDescription,
-    url: 'https://toolshub.builders/privacy',
+    url: 'https://tools-hub-builders.vercel.app/privacy',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [

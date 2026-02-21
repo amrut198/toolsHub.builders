@@ -22,7 +22,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://toolshub.builders'),
+  metadataBase: new URL('https://tools-hub-builders.vercel.app'),
   title: {
     default: "toolsHub.builders - 50+ Free AI Tools",
     template: "%s | toolsHub.builders"
@@ -33,10 +33,10 @@ export const metadata: Metadata = {
   creator: "toolsHub.builders",
   publisher: "toolsHub.builders",
   alternates: {
-    canonical: 'https://toolshub.builders',
+    canonical: 'https://tools-hub-builders.vercel.app',
     languages: {
-      'en': 'https://toolshub.builders',
-      'en-US': 'https://toolshub.builders',
+      'en': 'https://tools-hub-builders.vercel.app',
+      'en-US': 'https://tools-hub-builders.vercel.app',
     },
   },
   formatDetection: {
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://toolshub.builders",
+    url: "https://tools-hub-builders.vercel.app",
     siteName: "toolsHub.builders",
     title: "toolsHub.builders - 50+ Free AI Tools",
     description: "50+ free AI tools for text, images, audio, video, and code. No sign-up required. Instant results.",

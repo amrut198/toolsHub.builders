@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'All AI Tools | toolsHub.builders',
     description: 'Browse 50+ free AI tools organized by category.',
-    url: 'https://toolshub.builders/tools',
+    url: 'https://tools-hub-builders.vercel.app/tools',
   },
   alternates: {
-    canonical: 'https://toolshub.builders/tools',
+    canonical: 'https://tools-hub-builders.vercel.app/tools',
   },
 }
 

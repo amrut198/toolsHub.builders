@@ -15,13 +15,13 @@ const roadmapSchema = {
   '@type': 'WebPage',
   name: 'Roadmap',
   description: shortDescription,
-  url: 'https://toolshub.builders/roadmap',
+  url: 'https://tools-hub-builders.vercel.app/roadmap',
   datePublished: publishDate,
   dateModified: lastModified,
   publisher: {
     '@type': 'Organization',
     name: 'toolsHub.builders',
-    url: 'https://toolshub.builders',
+    url: 'https://tools-hub-builders.vercel.app',
   },
 }
 
@@ -35,103 +35,103 @@ const roadmap: {
     icon: string
   }[]
 }[] = [
-  {
-    quarter: 'Q2 2026',
-    status: 'in-progress' as const,
-    items: [
-      {
-        title: 'Batch Processing',
-        description: 'Process multiple files at once. Upload 10 images, 5 documents, or 3 videos simultaneously.',
-        category: 'Productivity',
-        icon: '⚡',
-      },
-      {
-        title: 'API Access',
-        description: 'Developer API to integrate our AI tools directly into your applications.',
-        category: 'Developers',
-        icon: '🔌',
-      },
-      {
-        title: 'Custom Themes',
-        description: 'Personalize your experience with dark mode and custom color schemes.',
-        category: 'UX',
-        icon: '🎨',
-      },
-    ],
-  },
-  {
-    quarter: 'Q3 2026',
-    status: 'planned' as const,
-    items: [
-      {
-        title: 'History & Saved Items',
-        description: 'Save your tool outputs and access them later from your account.',
-        category: 'Productivity',
-        icon: '📁',
-      },
-      {
-        title: 'Mobile Apps',
-        description: 'Native iOS and Android apps for tools on the go.',
-        category: 'Platform',
-        icon: '📱',
-      },
-      {
-        title: 'Collaborative Editing',
-        description: 'Share tool outputs with teammates and collaborate in real-time.',
-        category: 'Teams',
-        icon: '👥',
-      },
-    ],
-  },
-  {
-    quarter: 'Q4 2026',
-    status: 'planned' as const,
-    items: [
-      {
-        title: 'Advanced AI Models',
-        description: 'Integration with GPT-4, Claude, and Gemini for enhanced capabilities.',
-        category: 'AI',
-        icon: '🤖',
-      },
-      {
-        title: 'Plugin System',
-        description: 'Community-built plugins and extensions for custom workflows.',
-        category: 'Platform',
-        icon: '🧩',
-      },
-      {
-        title: 'Enterprise Features',
-        description: 'Team management, usage analytics, and priority support for organizations.',
-        category: 'Business',
-        icon: '🏢',
-      },
-    ],
-  },
-  {
-    quarter: '2027+',
-    status: 'exploration' as const,
-    items: [
-      {
-        title: 'Real-time Collaboration',
-        description: 'Work together on AI-generated content with live editing.',
-        category: 'Teams',
-        icon: '🔄',
-      },
-      {
-        title: 'AI Training',
-        description: 'Train custom models on your own data for specialized use cases.',
-        category: 'AI',
-        icon: '🧠',
-      },
-      {
-        title: 'White-Label Solution',
-        description: 'Deploy tools on your own domain with custom branding.',
-        category: 'Business',
-        icon: '🏷️',
-      },
-    ],
-  },
-]
+    {
+      quarter: 'Q2 2026',
+      status: 'in-progress' as const,
+      items: [
+        {
+          title: 'Batch Processing',
+          description: 'Process multiple files at once. Upload 10 images, 5 documents, or 3 videos simultaneously.',
+          category: 'Productivity',
+          icon: '⚡',
+        },
+        {
+          title: 'API Access',
+          description: 'Developer API to integrate our AI tools directly into your applications.',
+          category: 'Developers',
+          icon: '🔌',
+        },
+        {
+          title: 'Custom Themes',
+          description: 'Personalize your experience with dark mode and custom color schemes.',
+          category: 'UX',
+          icon: '🎨',
+        },
+      ],
+    },
+    {
+      quarter: 'Q3 2026',
+      status: 'planned' as const,
+      items: [
+        {
+          title: 'History & Saved Items',
+          description: 'Save your tool outputs and access them later from your account.',
+          category: 'Productivity',
+          icon: '📁',
+        },
+        {
+          title: 'Mobile Apps',
+          description: 'Native iOS and Android apps for tools on the go.',
+          category: 'Platform',
+          icon: '📱',
+        },
+        {
+          title: 'Collaborative Editing',
+          description: 'Share tool outputs with teammates and collaborate in real-time.',
+          category: 'Teams',
+          icon: '👥',
+        },
+      ],
+    },
+    {
+      quarter: 'Q4 2026',
+      status: 'planned' as const,
+      items: [
+        {
+          title: 'Advanced AI Models',
+          description: 'Integration with GPT-4, Claude, and Gemini for enhanced capabilities.',
+          category: 'AI',
+          icon: '🤖',
+        },
+        {
+          title: 'Plugin System',
+          description: 'Community-built plugins and extensions for custom workflows.',
+          category: 'Platform',
+          icon: '🧩',
+        },
+        {
+          title: 'Enterprise Features',
+          description: 'Team management, usage analytics, and priority support for organizations.',
+          category: 'Business',
+          icon: '🏢',
+        },
+      ],
+    },
+    {
+      quarter: '2027+',
+      status: 'exploration' as const,
+      items: [
+        {
+          title: 'Real-time Collaboration',
+          description: 'Work together on AI-generated content with live editing.',
+          category: 'Teams',
+          icon: '🔄',
+        },
+        {
+          title: 'AI Training',
+          description: 'Train custom models on your own data for specialized use cases.',
+          category: 'AI',
+          icon: '🧠',
+        },
+        {
+          title: 'White-Label Solution',
+          description: 'Deploy tools on your own domain with custom branding.',
+          category: 'Business',
+          icon: '🏷️',
+        },
+      ],
+    },
+  ]
 
 const statusConfig = {
   'in-progress': {
@@ -161,16 +161,16 @@ export const metadata: Metadata = {
   description: shortDescription,
   keywords: ['roadmap', 'product roadmap', 'future features', 'planned features', 'what\'s coming'],
   alternates: {
-    canonical: 'https://toolshub.builders/roadmap',
+    canonical: 'https://tools-hub-builders.vercel.app/roadmap',
     languages: {
-      'en': 'https://toolshub.builders/roadmap',
-      'en-US': 'https://toolshub.builders/roadmap',
+      'en': 'https://tools-hub-builders.vercel.app/roadmap',
+      'en-US': 'https://tools-hub-builders.vercel.app/roadmap',
     },
   },
   openGraph: {
     title: 'Roadmap | toolsHub.builders',
     description: shortDescription,
-    url: 'https://toolshub.builders/roadmap',
+    url: 'https://tools-hub-builders.vercel.app/roadmap',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [{ url: '/opengraph-image?d7b150282b7b5bc', width: 1200, height: 630 }],

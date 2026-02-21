@@ -940,7 +940,7 @@ Anchor Text Strategy:
   "@type": "SoftwareApplication",
   "name": "[Tool Name]",
   "description": "[Tool description]",
-  "url": "https://toolshub.builders/tools/[tool-slug]",
+  "url": "https://tools-hub-builders.vercel.app/tools/[tool-slug]",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Any",
   "offers": {
@@ -960,7 +960,7 @@ Anchor Text Strategy:
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "toolsHub.builders",
-  "url": "https://toolshub.builders",
+  "url": "https://tools-hub-builders.vercel.app",
   "description": "Free AI-powered tools for everyone",
   "sameAs": [
     "https://twitter.com/toolshub",
@@ -976,12 +976,12 @@ Anchor Text Strategy:
     "@type": "ListItem",
     "position": 1,
     "name": "Home",
-    "item": "https://toolshub.builders"
+    "item": "https://tools-hub-builders.vercel.app"
   }, {
     "@type": "ListItem",
     "position": 2,
     "name": "[Category]",
-    "item": "https://toolshub.builders/category/[category]"
+    "item": "https://tools-hub-builders.vercel.app/category/[category]"
   }, {
     "@type": "ListItem",
     "position": 3,
