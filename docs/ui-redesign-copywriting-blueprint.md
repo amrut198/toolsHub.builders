@@ -467,7 +467,7 @@ const categories: NavigationItem[] = [
 │                                                              │
 │  ────────────────────────────────────────────────────────── │
 │                                                              │
-│  © 2025 toolsHub.builders • Free AI tools for everyone      │
+│  © 2026 toolsHub.builders • Free AI tools for everyone      │
 │  Made with ❤️ for creators, students, and developers         │
 │                                                              │
 │  [Twitter] [GitHub] [LinkedIn]                               │

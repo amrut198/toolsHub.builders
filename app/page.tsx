@@ -10,6 +10,9 @@ import { Block as GettingStarted } from '@/src/components/blocks/getting-started
 import { Block as UseCases } from '@/src/components/blocks/features/feature-use-cases/block';
 import { Block as JoinCommunity } from '@/src/components/blocks/cta/join-community-cta/block';
 
+// Force static generation for optimal performance
+export const dynamic = 'force-static';
+
 export default function Home() {
   return (
     <>

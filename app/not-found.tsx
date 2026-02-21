@@ -1,5 +1,18 @@
 import Link from 'next/link'
-import { Box, Container, Heading, Text, Button, VStack } from '@chakra-ui/react'
+import { Metadata } from 'next'
+import { Box, Container, Heading, Text, Button, VStack, HStack, Link as ChakraLink } from '@chakra-ui/react'
+
+// Force static generation for optimal performance
+export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  title: '404 Not Found | toolsHub.builders',
+  description: 'The page you are looking for could not be found. Browse our AI tools directory.',
+  robots: {
+    index: false,
+    follow: true,
+  },
+}
 
 export default function NotFound() {
   return (
@@ -9,7 +22,6 @@ export default function NotFound() {
       alignItems="center"
       justifyContent="center"
       bg="gray.50"
-      _dark={{ bg: "gray.900" }}
     >
       <Container maxW="container.md" py={20}>
         <VStack gap={6} textAlign="center">
@@ -18,7 +30,7 @@ export default function NotFound() {
             fontSize={{ base: "8xl", md: "9xl" }}
             fontWeight="bold"
             bgGradient="to-r"
-            gradientFrom="brand.600"
+            gradientFrom="brand.500"
             gradientTo="brand.600"
             bgClip="text"
             lineHeight="1"
@@ -28,11 +40,10 @@ export default function NotFound() {
 
           {/* Main Message */}
           <Heading
-            as="h2"
+            as="h1"
             fontSize={{ base: "2xl", md: "4xl" }}
             fontWeight="semibold"
-            color="brand.600"
-            _dark={{ color: "white" }}
+            color="gray.900"
           >
             Page Not Found
           </Heading>
@@ -41,28 +52,53 @@ export default function NotFound() {
           <Text
             fontSize={{ base: "md", md: "lg" }}
             color="gray.600"
-            _dark={{ color: "gray.400" }}
             maxW="md"
           >
-            Sorry, we couldn't find the page you're looking for. 
-            The page might have been removed, renamed, or doesn't exist.
+            Sorry, we couldn't find the page you're looking for.
+            The page might have been moved or doesn't exist.
           </Text>
 
           {/* Action Buttons */}
-          <VStack gap={3} pt={4}>
-            <Link href="/" passHref>
+          <HStack gap={3} pt={4} flexWrap="wrap" justifyContent="center">
+            <Link href="/" passHref legacyBehavior>
               <Button
+                as="a"
                 size="lg"
-                variant={'solid'}
-                transition="all 0.2s"
+                colorScheme="brand"
               >
-                Go Back Home
+                Go Home
               </Button>
             </Link>
-          </VStack>
+            <Link href="/tools" passHref legacyBehavior>
+              <Button
+                as="a"
+                size="lg"
+                variant="outline"
+              >
+                Browse Tools
+              </Button>
+            </Link>
+          </HStack>
+
+          {/* Helpful Links */}
+          <Box pt={8}>
+            <Text fontWeight="semibold" mb={3} color="gray.700">
+              Popular Tools:
+            </Text>
+            <HStack gap={4} flexWrap="wrap" justifyContent="center">
+              <ChakraLink href="/tools/ai-summarizer" color="brand.500">
+                AI Summarizer
+              </ChakraLink>
+              <ChakraLink href="/tools/background-remover" color="brand.500">
+                Background Remover
+              </ChakraLink>
+              <ChakraLink href="/tools/code-explainer" color="brand.500">
+                Code Explainer
+              </ChakraLink>
+            </HStack>
+          </Box>
         </VStack>
       </Container>
     </Box>
   )
 }
-

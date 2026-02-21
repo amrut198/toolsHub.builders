@@ -18,8 +18,10 @@ import {
   FaGithub,
   FaLinkedin,
   FaYoutube,
+  FaRss,
+  FaSitemap,
 } from 'react-icons/fa';
-import { LuShield, LuLock, LuCheck } from 'react-icons/lu';
+import { LuShield, LuLock, LuCheck, LuFileText } from 'react-icons/lu';
 
 const footerLinks = {
   tools: {
@@ -45,9 +47,7 @@ const footerLinks = {
   resources: {
     title: 'Resources',
     links: [
-      { label: 'Blog', href: '/blog' },
       { label: 'Tutorials', href: '/tutorials' },
-      { label: 'API Documentation', href: '/docs' },
       { label: 'Changelog', href: '/changelog' },
       { label: 'Roadmap', href: '/roadmap' },
     ],
@@ -57,9 +57,6 @@ const footerLinks = {
     links: [
       { label: 'About Us', href: '/about' },
       { label: 'Careers', href: '/careers' },
-      { label: 'Partner Program', href: '/partners' },
-      { label: 'Join Our Community', href: 'https://forms.toolshub.builders/join' },
-      { label: 'Contact Us', href: '/contact' },
     ],
   },
   legal: {
@@ -74,10 +71,9 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: FaTwitter, href: 'https://twitter.com/toolshub', label: 'Twitter' },
-  { icon: FaGithub, href: 'https://github.com/toolshub', label: 'GitHub' },
-  { icon: FaLinkedin, href: 'https://linkedin.com/company/toolshub', label: 'LinkedIn' },
-  { icon: FaYoutube, href: 'https://youtube.com/@toolshub', label: 'YouTube' },
+  { icon: FaSitemap, href: '/sitemap.xml', label: 'Sitemap' },
+  { icon: FaRss, href: '/rss.xml', label: 'RSS Feed' },
+  { icon: LuFileText, href: '/llms.txt', label: 'llms.txt' },
 ];
 
 const trustBadges = [
@@ -206,7 +202,7 @@ export function Block() {
             {/* Copyright */}
             <Stack gap="2">
               <Text fontSize="md" color="gray.600">
-                © 2025 toolsHub.builders — Free AI tools for everyone
+                © 2026 toolsHub.builders — Free AI tools for everyone
               </Text>
             </Stack>
 

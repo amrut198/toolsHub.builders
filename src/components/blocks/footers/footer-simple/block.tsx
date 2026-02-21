@@ -107,7 +107,7 @@ export function Block() {
             gap="4"
           >
             <Text fontSize="sm" color="gray.500">
-              © 2025 toolsHub.builders — Free AI tools for everyone
+              © 2026 toolsHub.builders — Free AI tools for everyone
             </Text>
 
             <HStack gap="4">

@@ -1,0 +1,18 @@
+/* toolsHub.builders - Human.txt */
+
+/* TEAM */
+  Founder: Your Name
+  Contact: hello@toolshub.builders
+  Twitter: @toolshubbuilders
+
+/* SITE */
+  Last update: 2026/02/21
+  Language: en
+  Doctype: HTML5
+  Standards: HTML5, CSS3, WCAG 2.1 AA
+  Components: Next.js 15, React 19, Chakra UI 3
+
+/* META */
+  Domain: toolshub.builders
+  Hosting: Vercel
+  CDN: Vercel Edge Network

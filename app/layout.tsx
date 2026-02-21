@@ -5,6 +5,7 @@ import { Provider } from "@/components/ui/provider";
 import { Block as Navbar } from '@/src/components/blocks/marketing-navbars/navbar-with-call-to-action/block';
 import { Block as Footer } from '@/src/components/blocks/footers/footer-with-four-columns/block';
 import ScrollToTop from './components/ScrollToTop';
+import SchemaOrg from './components/SchemaOrg';
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -23,14 +24,21 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://toolshub.builders'),
   title: {
-    default: "toolsHub.builders - Free AI Tools for Everyone | No Sign-up Required",
+    default: "toolsHub.builders - 50+ Free AI Tools",
     template: "%s | toolsHub.builders"
   },
-  description: "Access 50+ free AI tools for text, images, audio, video, and code. No sign-up required. Instant results. Built for students, creators, and developers.",
-  keywords: ["free AI tools", "AI tools directory", "no signup AI tools", "text AI tools", "image AI tools", "productivity tools", "AI for students", "AI for developers"],
+  description: "Access 50+ free AI tools for text, images, audio, video, and code. No sign-up required. Instant results.",
+  keywords: ["free AI tools", "AI tools directory", "no signup AI tools", "text AI tools", "image AI tools", "productivity tools"],
   authors: [{ name: "toolsHub.builders" }],
   creator: "toolsHub.builders",
   publisher: "toolsHub.builders",
+  alternates: {
+    canonical: 'https://toolshub.builders',
+    languages: {
+      'en': 'https://toolshub.builders',
+      'en-US': 'https://toolshub.builders',
+    },
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -41,11 +49,11 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://toolshub.builders",
     siteName: "toolsHub.builders",
-    title: "toolsHub.builders - Free AI Tools for Everyone",
+    title: "toolsHub.builders - 50+ Free AI Tools",
     description: "50+ free AI tools for text, images, audio, video, and code. No sign-up required. Instant results.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/opengraph-image?d7b150282b7b5bc",
         width: 1200,
         height: 630,
         alt: "toolsHub.builders - Free AI Tools",
@@ -54,9 +62,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "toolsHub.builders - Free AI Tools for Everyone",
-    description: "50+ free AI tools. No sign-up required. Instant results.",
-    images: ["/og-image.png"],
+    site: "@toolshubbuilders",
+    title: "toolsHub.builders - 50+ Free AI Tools",
+    description: "50+ free AI tools. No sign-up. Instant results.",
+    images: ["/opengraph-image?d7b150282b7b5bc"],
   },
   robots: {
     index: true,
@@ -91,8 +100,12 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <meta name="google-site-verification" content="" />
+        <meta name="msvalidate.01" content="" />
+        <meta name="yandex-verification" content="" />
       </head>
       <body className={`${plusJakarta.variable} ${dmSans.variable} antialiased`}>
+        <SchemaOrg />
         <Provider>
           <Navbar />
           <div style={{ paddingTop: '65px' }}>

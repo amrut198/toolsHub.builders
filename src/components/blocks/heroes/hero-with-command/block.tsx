@@ -42,6 +42,7 @@ export const Block = () => {
 
           {/* Headline */}
           <Heading
+            as={'h1'}
             size={{ base: '3xl', md: '4xl' }}
             fontWeight="900"
             lineHeight="1.1"

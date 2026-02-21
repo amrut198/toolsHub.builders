@@ -4,7 +4,7 @@ import { ImageResponse } from 'next/og'
 export const runtime = 'edge'
 
 // Image metadata
-export const alt = 'toolshub-builders - Innovation & Technology Solutions'
+export const alt = 'toolsHub.builders - 50+ Free AI Tools'
 export const size = {
   width: 1200,
   height: 630,
@@ -78,7 +78,7 @@ export default async function Image() {
                 boxShadow: '0 20px 40px rgba(0, 0, 0, 0.2)',
               }}
             >
-              M
+              ⚡
             </div>
           </div>
 
@@ -95,7 +95,7 @@ export default async function Image() {
               display: 'flex',
             }}
           >
-            toolshub-builders
+            toolsHub.builders
           </div>
 
           {/* Subtitle */}
@@ -108,7 +108,7 @@ export default async function Image() {
               display: 'flex',
             }}
           >
-            Innovation & Technology Solutions
+            Free AI Tools for Everyone
           </div>
 
           {/* Description */}
@@ -121,7 +121,7 @@ export default async function Image() {
               display: 'flex',
             }}
           >
-            Your trusted partner in cutting-edge technology
+            50+ AI Tools • No Sign-up Required • Forever Free
           </div>
         </div>
 
