@@ -15,13 +15,13 @@ const tutorialsSchema = {
   '@type': 'CollectionPage',
   name: 'Tutorials',
   description: shortDescription,
-  url: 'https://tools-hub-builders.vercel.app/tutorials',
+  url: 'https://toolshub.builders/tutorials',
   datePublished: publishDate,
   dateModified: lastModified,
   publisher: {
     '@type': 'Organization',
     name: 'toolsHub.builders',
-    url: 'https://tools-hub-builders.vercel.app',
+    url: 'https://toolshub.builders',
   },
 }
 
@@ -30,16 +30,16 @@ export const metadata: Metadata = {
   description: shortDescription,
   keywords: ['AI tools tutorials', 'how to use AI tools', 'toolsHub guides', 'AI tool examples'],
   alternates: {
-    canonical: 'https://tools-hub-builders.vercel.app/tutorials',
+    canonical: 'https://toolshub.builders/tutorials',
     languages: {
-      'en': 'https://tools-hub-builders.vercel.app/tutorials',
-      'en-US': 'https://tools-hub-builders.vercel.app/tutorials',
+      'en': 'https://toolshub.builders/tutorials',
+      'en-US': 'https://toolshub.builders/tutorials',
     },
   },
   openGraph: {
     title: 'Tutorials | toolsHub.builders',
     description: shortDescription,
-    url: 'https://tools-hub-builders.vercel.app/tutorials',
+    url: 'https://toolshub.builders/tutorials',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [{ url: '/opengraph-image?d7b150282b7b5bc', width: 1200, height: 630 }],

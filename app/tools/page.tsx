@@ -18,16 +18,16 @@ export const metadata: Metadata = {
   description: 'Browse 50+ free AI tools organized by category. Text, image, audio, video, and code tools. No sign-up required.',
   keywords: ['AI tools directory', 'free AI tools list', 'AI tools categories', 'productivity AI tools'],
   alternates: {
-    canonical: 'https://tools-hub-builders.vercel.app/tools',
+    canonical: 'https://toolshub.builders/tools',
     languages: {
-      'en': 'https://tools-hub-builders.vercel.app/tools',
-      'en-US': 'https://tools-hub-builders.vercel.app/tools',
+      'en': 'https://toolshub.builders/tools',
+      'en-US': 'https://toolshub.builders/tools',
     },
   },
   openGraph: {
     title: 'All AI Tools | toolsHub.builders',
     description: 'Browse 50+ free AI tools organized by category. Text, image, audio, video, and code tools.',
-    url: 'https://tools-hub-builders.vercel.app/tools',
+    url: 'https://toolshub.builders/tools',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [{ url: '/opengraph-image?d7b150282b7b5bc', width: 1200, height: 630 }],

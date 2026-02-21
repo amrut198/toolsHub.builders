@@ -15,13 +15,13 @@ const changelogSchema = {
   '@type': 'WebPage',
   name: 'Changelog',
   description: shortDescription,
-  url: 'https://tools-hub-builders.vercel.app/changelog',
+  url: 'https://toolshub.builders/changelog',
   datePublished: publishDate,
   dateModified: lastModified,
   publisher: {
     '@type': 'Organization',
     name: 'toolsHub.builders',
-    url: 'https://tools-hub-builders.vercel.app',
+    url: 'https://toolshub.builders',
   },
 }
 
@@ -79,16 +79,16 @@ export const metadata: Metadata = {
   description: shortDescription,
   keywords: ['changelog', 'updates', 'release notes', 'new features', 'product updates'],
   alternates: {
-    canonical: 'https://tools-hub-builders.vercel.app/changelog',
+    canonical: 'https://toolshub.builders/changelog',
     languages: {
-      'en': 'https://tools-hub-builders.vercel.app/changelog',
-      'en-US': 'https://tools-hub-builders.vercel.app/changelog',
+      'en': 'https://toolshub.builders/changelog',
+      'en-US': 'https://toolshub.builders/changelog',
     },
   },
   openGraph: {
     title: 'Changelog | toolsHub.builders',
     description: shortDescription,
-    url: 'https://tools-hub-builders.vercel.app/changelog',
+    url: 'https://toolshub.builders/changelog',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [{ url: '/opengraph-image?d7b150282b7b5bc', width: 1200, height: 630 }],

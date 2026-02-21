@@ -15,7 +15,7 @@ const termsSchema = {
   '@type': 'WebPage',
   name: 'Terms of Service',
   description: shortDescription,
-  url: 'https://tools-hub-builders.vercel.app/terms',
+  url: 'https://toolshub.builders/terms',
   datePublished: publishDate,
   dateModified: lastModified,
   mainEntity: {
@@ -26,7 +26,7 @@ const termsSchema = {
     publisher: {
       '@type': 'Organization',
       name: 'toolsHub.builders',
-      url: 'https://tools-hub-builders.vercel.app',
+      url: 'https://toolshub.builders',
     },
   },
 }
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
   title: 'Terms of Service | toolsHub.builders',
   description: shortDescription,
   alternates: {
-    canonical: 'https://tools-hub-builders.vercel.app/terms',
+    canonical: 'https://toolshub.builders/terms',
     languages: {
-      'en': 'https://tools-hub-builders.vercel.app/terms',
-      'en-US': 'https://tools-hub-builders.vercel.app/terms',
+      'en': 'https://toolshub.builders/terms',
+      'en-US': 'https://toolshub.builders/terms',
     },
   },
   openGraph: {
     title: 'Terms of Service | toolsHub.builders',
     description: shortDescription,
-    url: 'https://tools-hub-builders.vercel.app/terms',
+    url: 'https://toolshub.builders/terms',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [

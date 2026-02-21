@@ -15,13 +15,13 @@ const roadmapSchema = {
   '@type': 'WebPage',
   name: 'Roadmap',
   description: shortDescription,
-  url: 'https://tools-hub-builders.vercel.app/roadmap',
+  url: 'https://toolshub.builders/roadmap',
   datePublished: publishDate,
   dateModified: lastModified,
   publisher: {
     '@type': 'Organization',
     name: 'toolsHub.builders',
-    url: 'https://tools-hub-builders.vercel.app',
+    url: 'https://toolshub.builders',
   },
 }
 
@@ -161,16 +161,16 @@ export const metadata: Metadata = {
   description: shortDescription,
   keywords: ['roadmap', 'product roadmap', 'future features', 'planned features', 'what\'s coming'],
   alternates: {
-    canonical: 'https://tools-hub-builders.vercel.app/roadmap',
+    canonical: 'https://toolshub.builders/roadmap',
     languages: {
-      'en': 'https://tools-hub-builders.vercel.app/roadmap',
-      'en-US': 'https://tools-hub-builders.vercel.app/roadmap',
+      'en': 'https://toolshub.builders/roadmap',
+      'en-US': 'https://toolshub.builders/roadmap',
     },
   },
   openGraph: {
     title: 'Roadmap | toolsHub.builders',
     description: shortDescription,
-    url: 'https://tools-hub-builders.vercel.app/roadmap',
+    url: 'https://toolshub.builders/roadmap',
     siteName: 'toolsHub.builders',
     type: 'website',
     images: [{ url: '/opengraph-image?d7b150282b7b5bc', width: 1200, height: 630 }],

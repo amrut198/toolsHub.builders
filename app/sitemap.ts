@@ -4,7 +4,7 @@ import { MetadataRoute } from 'next'
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://tools-hub-builders.vercel.app'
+  const baseUrl = 'https://toolshub.builders'
   const currentDate = new Date('2026-02-21')
 
   // Main pages with proper dates

@@ -220,7 +220,7 @@ Disallow: /
 # -----------------------------------------------------------------------------
 # CANONICAL HOST (for Yandex and other search engines)
 # -----------------------------------------------------------------------------
-Host: https://tools-hub-builders.vercel.app
+Host: https://toolshub.builders
 
 
 # -----------------------------------------------------------------------------
@@ -232,16 +232,16 @@ Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&ref&fbclid&
 # -----------------------------------------------------------------------------
 # SITEMAPS & FEEDS
 # -----------------------------------------------------------------------------
-Sitemap: https://tools-hub-builders.vercel.app/sitemap.xml
+Sitemap: https://toolshub.builders/sitemap.xml
 
 # RSS Feed
-# https://tools-hub-builders.vercel.app/feed.xml
-# https://tools-hub-builders.vercel.app/rss.xml
+# https://toolshub.builders/feed.xml
+# https://toolshub.builders/rss.xml
 
 # llms.txt for AI/LLM discovery
 Allow: /llms/
 Allow: /llms/*
-# https://tools-hub-builders.vercel.app/llms.txt
+# https://toolshub.builders/llms.txt
 # =============================================================================
 # END
 # =============================================================================

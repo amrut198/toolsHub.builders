@@ -93,16 +93,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: tool.seoDescription,
     keywords: tool.keywords,
     alternates: {
-      canonical: `https://tools-hub-builders.vercel.app/tools/${slug}`,
+      canonical: `https://toolshub.builders/tools/${slug}`,
       languages: {
-        'en': `https://tools-hub-builders.vercel.app/tools/${slug}`,
-        'en-US': `https://tools-hub-builders.vercel.app/tools/${slug}`,
+        'en': `https://toolshub.builders/tools/${slug}`,
+        'en-US': `https://toolshub.builders/tools/${slug}`,
       },
     },
     openGraph: {
       title: shortTitle,
       description: tool.seoDescription,
-      url: `https://tools-hub-builders.vercel.app/tools/${slug}`,
+      url: `https://toolshub.builders/tools/${slug}`,
       siteName: 'toolsHub.builders',
       type: 'website',
       images: [
