@@ -41,11 +41,10 @@ export const links = [
   {
     title: 'Legal',
     links: [
-      { label: 'Privacy Policy', href: '#privacy' },
-      { label: 'Terms of Service', href: '#terms' },
-      { label: 'Refund Policy', href: '#refund' },
-      { label: 'Cookie Policy', href: '#cookies' },
-      { label: 'Security', href: '#security' },
+      { label: 'Privacy Policy', href: '/privacy' },
+      { label: 'Terms of Service', href: '/terms' },
+      { label: 'Cookie Policy', href: '/cookies' },
+      { label: 'Security', href: '/security' },
     ],
   },
 ]
