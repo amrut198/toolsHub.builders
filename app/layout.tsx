@@ -6,6 +6,7 @@ import { Block as Navbar } from '@/src/components/blocks/marketing-navbars/navba
 import { Block as Footer } from '@/src/components/blocks/footers/footer-with-four-columns/block';
 import ScrollToTop from './components/ScrollToTop';
 import SchemaOrg from './components/SchemaOrg';
+import { Analytics } from "@vercel/analytics/next";
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -126,6 +127,7 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </Provider>
+        <Analytics />
       </body>
     </html>
   );
