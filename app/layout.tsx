@@ -100,9 +100,21 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <meta name="google-site-verification" content="" />
+        <meta name="google-site-verification" content="L_6Rg5Hz5yGbl2N_n9MSvjJ2HCY-7uihj3VOcwENPm8" />
         <meta name="msvalidate.01" content="" />
         <meta name="yandex-verification" content="" />
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="YXeUBKP1EN71AowKkazVRw" async></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              var ahrefs_analytics_script = document.createElement('script');
+              ahrefs_analytics_script.async = true;
+              ahrefs_analytics_script.src = 'https://analytics.ahrefs.com/analytics.js';
+              ahrefs_analytics_script.setAttribute('data-key', 'YXeUBKP1EN71AowKkazVRw');
+              document.getElementsByTagName('head')[0].appendChild(ahrefs_analytics_script);
+            `,
+          }}
+        />
       </head>
       <body className={`${plusJakarta.variable} ${dmSans.variable} antialiased`}>
         <SchemaOrg />
