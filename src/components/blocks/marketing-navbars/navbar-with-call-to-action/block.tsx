@@ -26,7 +26,7 @@ export const Block = () => {
           <Spacer hideFrom="lg" />
           <NavbarLinks hideBelow="lg" />
           <HStack gap="3" hideBelow="lg">
-            <Link href="/about">
+            <Link href="/">
               <Button
                 size="lg"
                 variant="ghost"
@@ -56,7 +56,7 @@ export const Block = () => {
               <Stack gap="4">
                 <NavbarLinks onLinkClick={onClose} />
                 <Stack gap="3" pt="4">
-                  <Link href="/about">
+                  <Link href="/">
                     <Button
                       size="lg"
                       variant="ghost"

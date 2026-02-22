@@ -72,7 +72,7 @@ interface CategoryCardProps {
 }
 
 function CategoryCard({ name, icon: Icon, count, description }: CategoryCardProps) {
-  const href = `/category/${name.toLowerCase().replace(' ', '-')}`
+  const href = `/`
 
   return (
     <Link

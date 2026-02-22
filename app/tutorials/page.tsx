@@ -289,7 +289,7 @@ interface TutorialCardProps {
 
 function TutorialCard({ tutorial }: TutorialCardProps) {
   return (
-    <Link href={`/tutorials/${tutorial.slug}`} _hover={{ textDecoration: 'none' }} w="full">
+    <Link href={`/tutorials`} _hover={{ textDecoration: 'none' }} w="full">
       <Box
         bg="white"
         p={5}
