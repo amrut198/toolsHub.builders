@@ -122,7 +122,7 @@ export const Block = () => {
           {/* CTA */}
           <Flex justify="center" pt="4">
             <ChakraLink
-              href="/tools"
+              href="/"
               _hover={{ textDecoration: 'none' }}
             >
               <HStack

@@ -11,21 +11,6 @@ https://toolshub.builders
 
 ### Main Pages
 - Home: https://toolshub.builders/
-- All Tools: https://toolshub.builders/tools
-- Text Tools: https://toolshub.builders/tools?category=text
-- Image Tools: https://toolshub.builders/tools?category=image
-- Audio Tools: https://toolshub.builders/tools?category=audio
-- Video Tools: https://toolshub.builders/tools?category=video
-- Code Tools: https://toolshub.builders/tools?category=code
-
-### Popular Tools
-- AI Summarizer: https://toolshub.builders/tools/ai-summarizer
-- Background Remover: https://toolshub.builders/tools/background-remover
-- Code Explainer: https://toolshub.builders/tools/code-explainer
-- Grammar Checker: https://toolshub.builders/tools/grammar-checker
-- Image Upscaler: https://toolshub.builders/tools/image-upscaler
-- Text to Speech: https://toolshub.builders/tools/text-to-speech
-- Video Compressor: https://toolshub.builders/tools/video-compressor
 
 ### Legal & Support
 - Privacy Policy: https://toolshub.builders/privacy
@@ -41,17 +26,3 @@ https://toolshub.builders
 - Client-side Processing (Privacy-focused)
 - Works on All Devices
 - New Tools Added Weekly
-
-## Categories
-- Text Tools: Summarization, paraphrasing, grammar checking, text generation
-- Image Tools: Background removal, upscaling, compression, generation
-- Audio Tools: Text-to-speech, speech-to-text, voice cloning
-- Video Tools: Compression, conversion, trimming
-- Code Tools: Explanation, generation, formatting, conversion
-
-## Target Audience
-- Students needing homework help
-- Content creators and marketers
-- Developers and programmers
-- Designers and creative professionals
-- Anyone needing quick AI-powered assistance

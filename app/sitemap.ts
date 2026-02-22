@@ -16,12 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/tools`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly' as const,
-      priority: 0.9,
-    },
-    {
       url: `${baseUrl}/tutorials`,
       lastModified: new Date('2026-02-21'),
       changeFrequency: 'weekly' as const,
@@ -65,46 +59,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Tool pages
-  const toolSlugs = [
-    'ai-summarizer',
-    'paraphrasing-tool',
-    'grammar-checker',
-    'text-generator',
-    'plagiarism-checker',
-    'readability-analyzer',
-    'background-remover',
-    'image-upscaler',
-    'image-compressor',
-    'ai-image-generator',
-    'image-converter',
-    'photo-enhancer',
-    'text-to-speech',
-    'speech-to-text',
-    'voice-cloner',
-    'audio-compressor',
-    'noise-remover',
-    'audio-converter',
-    'video-compressor',
-    'video-to-text',
-    'video-trimmer',
-    'video-converter',
-    'thumbnail-generator',
-    'watermark-remover',
-    'code-explainer',
-    'code-generator',
-    'code-formatter',
-    'json-validator',
-    'regex-tester',
-    'code-converter',
-  ]
-
-  const toolPages = toolSlugs.map((slug) => ({
-    url: `${baseUrl}/tools/${slug}`,
-    lastModified: new Date('2026-02-21'),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
-
-  return [...mainPages, ...toolPages]
+  return [...mainPages]
 }

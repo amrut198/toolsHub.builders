@@ -178,7 +178,7 @@ export default function ChangelogPage() {
               </Link>{' '}
               for what's planned.
             </Text>
-            <Link href="/tools" fontSize={{ base: 'lg', md: 'xl' }}>
+            <Link href="/" fontSize={{ base: 'lg', md: 'xl' }}>
               <Badge colorPalette="brand" px={4} py={2} borderRadius="full" fontSize={{ base: 'lg' }}>
                 Try Our Tools →
               </Badge>

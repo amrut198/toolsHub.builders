@@ -36,7 +36,7 @@ export const Block = () => {
                 About
               </Button>
             </Link>
-            <Link href="/tools">
+            <Link href="/">
               <Button
                 size="lg"
                 bg="brand.500"
@@ -67,7 +67,7 @@ export const Block = () => {
                       About
                     </Button>
                   </Link>
-                  <Link href="/tools">
+                  <Link href="/">
                     <Button
                       size="md"
                       bg="brand.500"

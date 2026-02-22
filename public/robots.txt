@@ -235,7 +235,6 @@ Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&ref&fbclid&
 Sitemap: https://toolshub.builders/sitemap.xml
 
 # RSS Feed
-# https://toolshub.builders/feed.xml
 # https://toolshub.builders/rss.xml
 
 # llms.txt for AI/LLM discovery

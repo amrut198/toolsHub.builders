@@ -27,21 +27,21 @@ const footerLinks = {
   tools: {
     title: 'Tools',
     links: [
-      { label: 'Text Tools', href: '/category/text' },
-      { label: 'Image Tools', href: '/category/image' },
-      { label: 'Audio Tools', href: '/category/audio' },
-      { label: 'Video Tools', href: '/category/video' },
-      { label: 'Code Tools', href: '/category/code' },
+      { label: 'Text Tools', href: '/' },
+      { label: 'Image Tools', href: '/' },
+      { label: 'Audio Tools', href: '/' },
+      { label: 'Video Tools', href: '/' },
+      { label: 'Code Tools', href: '/' },
     ],
   },
   categories: {
     title: 'Categories',
     links: [
-      { label: 'All Tools', href: '/tools' },
-      { label: 'Popular', href: '/popular' },
-      { label: 'New', href: '/new' },
-      { label: 'Productivity', href: '/category/productivity' },
-      { label: 'Developer Tools', href: '/category/developer' },
+      { label: 'All Tools', href: '/' },
+      { label: 'Popular', href: '/' },
+      { label: 'New', href: '/' },
+      { label: 'Productivity', href: '/' },
+      { label: 'Developer Tools', href: '/' },
     ],
   },
   resources: {
@@ -55,8 +55,8 @@ const footerLinks = {
   company: {
     title: 'Company',
     links: [
-      { label: 'About Us', href: '/about' },
-      { label: 'Careers', href: '/careers' },
+      { label: 'About Us', href: '/' },
+      { label: 'Careers', href: '/' },
     ],
   },
   legal: {

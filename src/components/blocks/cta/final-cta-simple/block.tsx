@@ -31,7 +31,7 @@ export const Block = () => {
           >
             All tools are free. No registration required. Start using them right now.
           </Text>
-          <Link href={'/tools'}>
+          <Link href={'/'}>
             <Button
               size="lg"
               bg="white"

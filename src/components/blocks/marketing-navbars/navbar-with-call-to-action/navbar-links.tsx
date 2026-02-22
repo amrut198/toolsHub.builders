@@ -4,10 +4,10 @@ import { Link, Stack, type StackProps } from '@chakra-ui/react'
 import { useState } from 'react'
 
 const navItems = [
-  { label: 'Tools', href: '/tools' },
-  { label: 'Categories', href: '/categories' },
-  { label: 'New', href: '/new' },
-  { label: 'Popular', href: '/popular' },
+  { label: 'Tools', href: '/' },
+  { label: 'Categories', href: '/' },
+  { label: 'New', href: '/' },
+  { label: 'Popular', href: '/' },
 ]
 
 interface NavbarLinksProps extends StackProps {

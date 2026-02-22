@@ -69,7 +69,7 @@ export default function NotFound() {
                 Go Home
               </Button>
             </Link>
-            <Link href="/tools" passHref legacyBehavior>
+            <Link href="/" passHref legacyBehavior>
               <Button
                 as="a"
                 size="lg"
@@ -86,13 +86,13 @@ export default function NotFound() {
               Popular Tools:
             </Text>
             <HStack gap={4} flexWrap="wrap" justifyContent="center">
-              <ChakraLink href="/tools/ai-summarizer" color="brand.500">
+              <ChakraLink href="#" color="brand.500">
                 AI Summarizer
               </ChakraLink>
-              <ChakraLink href="/tools/background-remover" color="brand.500">
+              <ChakraLink href="#" color="brand.500">
                 Background Remover
               </ChakraLink>
-              <ChakraLink href="/tools/code-explainer" color="brand.500">
+              <ChakraLink href="#" color="brand.500">
                 Code Explainer
               </ChakraLink>
             </HStack>

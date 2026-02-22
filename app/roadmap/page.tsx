@@ -251,7 +251,7 @@ export default function RoadmapPage() {
               We build features based on user feedback. Join our community to vote on upcoming features and suggest new tools.
             </Text>
             <HStack gap={4} justify="center" flexWrap="wrap">
-              <Link href="/tools">
+              <Link href="/">
                 <Badge colorPalette="brand" px={4} py={2} borderRadius="full" cursor="pointer" fontSize={'md'}>
                   Try Tools →
                 </Badge>
