@@ -1,8 +1,8 @@
-# toolsHub.builders - Free AI Tools Directory
+# toolsHub.builders - Free Online Tools Directory
 
-Access 50+ free AI tools for text, images, audio, video, and code. No sign-up required. Instant results. Built for students, creators, and developers.
+Access 20+ free online tools for text, developers, images, and SEO. No sign-up required. Instant results. Built for students, creators, and developers.
 
-toolsHub.builders is a free AI tools directory that provides instant access to powerful AI tools without requiring registration or payment. All tools run client-side for privacy, and new tools are added weekly based on user feedback.
+toolsHub.builders is a free online tools directory that provides instant access to powerful tools without requiring registration or payment. All tools run client-side for privacy, and new tools are added weekly based on user feedback.
 
 ## Website
 https://toolshub.builders
@@ -11,18 +11,103 @@ https://toolshub.builders
 
 ### Main Pages
 - Home: https://toolshub.builders/
+- All Tools: https://toolshub.builders/tools
+- Tutorials: https://toolshub.builders/tutorials
+- Changelog: https://toolshub.builders/changelog
+- Roadmap: https://toolshub.builders/roadmap
 
 ### Legal & Support
 - Privacy Policy: https://toolshub.builders/privacy
 - Terms of Service: https://toolshub.builders/terms
-- Roadmap: https://toolshub.builders/roadmap
-- Changelog: https://toolshub.builders/changelog
+- Cookies Policy: https://toolshub.builders/cookies
+- Security: https://toolshub.builders/security
 - Contact: mailto:hello@toolshub.builders
 
+## Tools
+
+### Text Tools
+- Word Counter: https://toolshub.builders/tools/word-counter
+  Count words, characters, sentences, and paragraphs instantly. Perfect for writers and content creators.
+
+- Character Counter: https://toolshub.builders/tools/character-counter
+  Count characters with and without spaces. Essential for social media posts and meta descriptions.
+
+- Case Converter: https://toolshub.builders/tools/case-converter
+  Convert text to uppercase, lowercase, title case, and sentence case instantly.
+
+- Remove Duplicate Lines: https://toolshub.builders/tools/remove-duplicate-lines
+  Remove duplicate lines from text. Clean up lists and data with one click.
+
+- Text to Slug: https://toolshub.builders/tools/text-to-slug
+  Convert any text into URL-friendly slugs for clean URLs and permalinks.
+
+### Developer Tools
+- JSON Formatter: https://toolshub.builders/tools/json-formatter
+  Format, beautify, and validate JSON data with syntax highlighting and error detection.
+
+- Base64 Encoder/Decoder: https://toolshub.builders/tools/base64-encoder-decoder
+  Encode and decode Base64 strings instantly. Support for text, images, and any data.
+
+- HTML Minifier: https://toolshub.builders/tools/html-minifier
+  Minify HTML code to reduce file size. Remove whitespace and comments.
+
+- CSS Minifier: https://toolshub.builders/tools/css-minifier
+  Minify CSS code to reduce file size. Remove whitespace and comments.
+
+- JWT Decoder: https://toolshub.builders/tools/jwt-decoder
+  Decode and inspect JSON Web Tokens. View header, payload, and signature information.
+
+### Image Tools
+- Image to Base64: https://toolshub.builders/tools/image-to-base64
+  Convert images to Base64 strings. Support for PNG, JPG, GIF, WebP formats.
+
+- Image Compressor: https://toolshub.builders/tools/image-compressor
+  Compress images without quality loss. Reduce file size while maintaining quality.
+
+- PNG to JPG: https://toolshub.builders/tools/png-to-jpg
+  Convert PNG images to JPG format with quality control options.
+
+- Resize Image: https://toolshub.builders/tools/resize-image
+  Resize images to any dimension. Maintain aspect ratio or set custom dimensions.
+
+- Image Crop: https://toolshub.builders/tools/image-crop
+  Crop images to any size or aspect ratio with interactive crop tool.
+
+### SEO Tools
+- Meta Tag Generator: https://toolshub.builders/tools/meta-tag-generator
+  Generate SEO-friendly meta tags, Open Graph, and Twitter card meta tags.
+
+- Robots.txt Generator: https://toolshub.builders/tools/robots-generator
+  Generate robots.txt files to control search engine crawler access.
+
+- Sitemap Generator: https://toolshub.builders/tools/sitemap-generator
+  Generate XML sitemaps for search engines for better SEO.
+
+- Keyword Density Checker: https://toolshub.builders/tools/keyword-density-checker
+  Analyze keyword density in your content. Optimize text for SEO.
+
+- Open Graph Generator: https://toolshub.builders/tools/open-graph-generator
+  Generate Open Graph meta tags for social media sharing with preview.
+
 ## Features
-- 50+ Free AI Tools
+- 20+ Free Online Tools
 - No Sign-up Required
 - No Usage Limits
 - Client-side Processing (Privacy-focused)
 - Works on All Devices
+- Instant Results
 - New Tools Added Weekly
+
+## Categories
+- Text Tools: Word counting, case conversion, slug generation
+- Developer Tools: JSON formatting, Base64 encoding, code minification
+- Image Tools: Compression, conversion, resizing, cropping
+- SEO Tools: Meta tags, robots.txt, sitemap, keyword analysis
+
+## Target Audience
+- Students and academics
+- Content creators and writers
+- Developers and programmers
+- SEO specialists and marketers
+- Small business owners
+- Anyone who needs quick, free online tools

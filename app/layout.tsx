@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Provider } from "@/components/ui/provider";
 import { Block as Navbar } from '@/src/components/blocks/marketing-navbars/navbar-with-call-to-action/block';
@@ -8,28 +7,14 @@ import ScrollToTop from './components/ScrollToTop';
 import SchemaOrg from './components/SchemaOrg';
 import { Analytics } from "@vercel/analytics/next";
 
-const plusJakarta = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-plus-jakarta",
-  weight: ["400", "500", "600", "700", "800"],
-});
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-dm-sans",
-  weight: ["400", "500", "600", "700"],
-});
-
 export const metadata: Metadata = {
   metadataBase: new URL('https://toolshub.builders'),
   title: {
-    default: "toolsHub.builders - 50+ Free AI Tools",
-    template: "%s | toolsHub.builders"
+    default: "toolsHub.builders - 20+ Free Online Tools",
+    template: "%s | toolsHub"
   },
-  description: "Access 50+ free AI tools for text, images, audio, video, and code. No sign-up required. Instant results.",
-  keywords: ["free AI tools", "AI tools directory", "no signup AI tools", "text AI tools", "image AI tools", "productivity tools"],
+  description: "20+ free online tools for text, developers, images & SEO. Word counter, JSON formatter, image compressor, meta tags & more. No signup required.",
+  keywords: ["free online tools", "word counter", "json formatter", "image compressor", "seo tools", "developer tools", "text tools"],
   authors: [{ name: "toolsHub.builders" }],
   creator: "toolsHub.builders",
   publisher: "toolsHub.builders",
@@ -37,7 +22,7 @@ export const metadata: Metadata = {
     canonical: 'https://toolshub.builders',
     languages: {
       'en': 'https://toolshub.builders',
-      'en-US': 'https://toolshub.builders',
+      'x-default': 'https://toolshub.builders',
     },
   },
   formatDetection: {
@@ -101,6 +86,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
         <meta name="google-site-verification" content="L_6Rg5Hz5yGbl2N_n9MSvjJ2HCY-7uihj3VOcwENPm8" />
         <meta name="msvalidate.01" content="" />
         <meta name="yandex-verification" content="" />
@@ -117,8 +103,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${plusJakarta.variable} ${dmSans.variable} antialiased`}>
-        <SchemaOrg />
+      <body className="antialiased">
         <Provider>
           <Navbar />
           <div style={{ paddingTop: '65px' }}>

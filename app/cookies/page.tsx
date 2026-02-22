@@ -55,6 +55,9 @@ export const metadata: Metadata = {
 export default function CookiesPage() {
   return (
     <>
+
+      {/* JSON-LD Schema */}
+      <SchemaOrg />
       <Script
         id="cookies-schema"
         type="application/ld+json"
@@ -286,3 +289,5 @@ function CookieType({ name, description, examples }: CookieTypeProps) {
 }
 
 import { HStack } from '@chakra-ui/react'
+import SchemaOrg from '../components/SchemaOrg';
+

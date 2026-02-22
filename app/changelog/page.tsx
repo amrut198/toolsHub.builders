@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Container, Heading, Text, Stack, Box, Badge, HStack, Link } from '@chakra-ui/react'
 import Script from 'next/script'
+import SchemaOrg from '../components/SchemaOrg';
 
 // Force static generation for optimal performance
 export const dynamic = 'force-static';
@@ -117,6 +118,9 @@ const typeIcons = {
 export default function ChangelogPage() {
   return (
     <>
+
+      {/* JSON-LD Schema */}
+      <SchemaOrg />
       <Script
         id="changelog-schema"
         type="application/ld+json"

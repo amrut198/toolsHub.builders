@@ -187,6 +187,9 @@ export const metadata: Metadata = {
 export default function RoadmapPage() {
   return (
     <>
+
+      {/* JSON-LD Schema */}
+      <SchemaOrg />
       <Script
         id="roadmap-schema"
         type="application/ld+json"
@@ -376,4 +379,6 @@ function RoadmapQuarter({ quarter }: RoadmapQuarterProps) {
   )
 }
 
-import { HStack } from '@chakra-ui/react'
+import { HStack } from '@chakra-ui/react';
+import SchemaOrg from '../components/SchemaOrg';
+

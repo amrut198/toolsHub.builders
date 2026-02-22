@@ -55,6 +55,9 @@ export const metadata: Metadata = {
 export default function SecurityPage() {
   return (
     <>
+
+      {/* JSON-LD Schema */}
+      <SchemaOrg />
       <Script
         id="security-schema"
         type="application/ld+json"
@@ -304,4 +307,6 @@ function UnorderedListItem({ title, description }: ListItemProps) {
   )
 }
 
-import { HStack } from '@chakra-ui/react'
+import { HStack } from '@chakra-ui/react';
+import SchemaOrg from '../components/SchemaOrg';
+

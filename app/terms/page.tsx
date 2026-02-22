@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Container, Heading, Text, Stack, Box, Link } from '@chakra-ui/react'
 import Script from 'next/script'
+import SchemaOrg from '../components/SchemaOrg';
 
 // Force static generation for optimal performance
 export const dynamic = 'force-static';
@@ -68,6 +69,9 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <>
+
+      {/* JSON-LD Schema */}
+      <SchemaOrg />
       <Script
         id="terms-schema"
         type="application/ld+json"

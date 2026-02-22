@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>toolsHub.builders - Free AI Tools for Everyone</title>
+    <title>toolsHub.builders - Free Online Tools for Everyone</title>
     <link>https://toolshub.builders</link>
-    <description>Access 50+ free AI tools for text, images, audio, video, and code. No sign-up required. Instant results.</description>
+    <description>Access 20+ free online tools for text, developers, images, and SEO. No sign-up required. Instant results.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://toolshub.builders/rss.xml" rel="self" type="application/rss+xml"/>
 
     <!-- Main Pages -->
     <item>
-      <title>toolsHub.builders - 50+ Free AI Tools Directory</title>
+      <title>toolsHub.builders - 20+ Free Online Tools Directory</title>
       <link>https://toolshub.builders</link>
       <guid>https://toolshub.builders</guid>
-      <pubDate>Fri, 21 Feb 2026 00:00:00 GMT</pubDate>
-      <description>Access 50+ free AI tools for text, images, audio, video, and code. No sign-up required. Instant results. Built for students, creators, and developers.</description>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Access 20+ free online tools for text, developers, images, and SEO. No sign-up required. Instant results. Built for students, creators, and developers.</description>
       <category>homepage</category>
     </item>
 
     <item>
-      <title>Tutorials & Guides - Learn How to Use AI Tools</title>
+      <title>All Tools - Explore Our Complete Tool Collection</title>
+      <link>https://toolshub.builders/tools</link>
+      <guid>https://toolshub.builders/tools</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Explore our complete collection of free online tools. Text tools, developer tools, image tools, and SEO tools - all in one place.</description>
+      <category>tools</category>
+    </item>
+
+    <item>
+      <title>Tutorials &amp; Guides - Learn How to Use Tools</title>
       <link>https://toolshub.builders/tutorials</link>
       <guid>https://toolshub.builders/tutorials</guid>
-      <pubDate>Fri, 21 Feb 2026 00:00:00 GMT</pubDate>
-      <description>Step-by-step tutorials to master AI tools. Learn summarization, background removal, code explanation, and more. Beginner-friendly guides with quick results.</description>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Step-by-step tutorials to master online tools. Learn formatting, conversion, optimization, and more. Beginner-friendly guides with quick results.</description>
       <category>tutorials</category>
     </item>
 
@@ -31,7 +40,7 @@
       <title>Changelog - Latest Updates and New Features</title>
       <link>https://toolshub.builders/changelog</link>
       <guid>https://toolshub.builders/changelog</guid>
-      <pubDate>Fri, 21 Feb 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
       <description>Track our progress, new features, and improvements. We ship updates regularly. See what's new in toolsHub.builders.</description>
       <category>updates</category>
     </item>
@@ -40,9 +49,193 @@
       <title>Roadmap - What's Coming Next</title>
       <link>https://toolshub.builders/roadmap</link>
       <guid>https://toolshub.builders/roadmap</guid>
-      <pubDate>Fri, 21 Feb 2026 00:00:00 GMT</pubDate>
-      <description>Discover what's coming next for toolsHub.builders. See our planned features, upcoming tools, and long-term vision for the free AI tools platform.</description>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Discover what's coming next for toolsHub.builders. See our planned features, upcoming tools, and long-term vision for the free tools platform.</description>
       <category>roadmap</category>
+    </item>
+
+    <!-- Text Tools -->
+    <item>
+      <title>Word Counter - Count Words, Characters &amp; Sentences</title>
+      <link>https://toolshub.builders/tools/word-counter</link>
+      <guid>https://toolshub.builders/tools/word-counter</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online word counter tool. Instantly count words, characters, sentences, paragraphs, and reading time. Perfect for writers and content creators.</description>
+      <category>text-tools</category>
+    </item>
+
+    <item>
+      <title>Character Counter - Count Characters Online</title>
+      <link>https://toolshub.builders/tools/character-counter</link>
+      <guid>https://toolshub.builders/tools/character-counter</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Count characters online with or without spaces. Perfect for Twitter, Instagram, LinkedIn posts and SEO meta descriptions.</description>
+      <category>text-tools</category>
+    </item>
+
+    <item>
+      <title>Case Converter - Convert Text Case Instantly</title>
+      <link>https://toolshub.builders/tools/case-converter</link>
+      <guid>https://toolshub.builders/tools/case-converter</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online case converter. Transform text to uppercase, lowercase, title case, sentence case, and toggle case instantly.</description>
+      <category>text-tools</category>
+    </item>
+
+    <item>
+      <title>Remove Duplicate Lines - Clean Text Lists</title>
+      <link>https://toolshub.builders/tools/remove-duplicate-lines</link>
+      <guid>https://toolshub.builders/tools/remove-duplicate-lines</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free tool to remove duplicate lines from text. Clean up lists, remove repeated entries, and deduplicate content instantly.</description>
+      <category>text-tools</category>
+    </item>
+
+    <item>
+      <title>Text to Slug Converter - Create URL-Friendly Slugs</title>
+      <link>https://toolshub.builders/tools/text-to-slug</link>
+      <guid>https://toolshub.builders/tools/text-to-slug</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Convert text to URL-friendly slugs instantly. Create clean, SEO-friendly URLs and permalinks for your content.</description>
+      <category>text-tools</category>
+    </item>
+
+    <!-- Developer Tools -->
+    <item>
+      <title>JSON Formatter - Beautify &amp; Validate JSON</title>
+      <link>https://toolshub.builders/tools/json-formatter</link>
+      <guid>https://toolshub.builders/tools/json-formatter</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online JSON formatter and validator. Beautify JSON with syntax highlighting, error detection, and format compact JSON.</description>
+      <category>developer-tools</category>
+    </item>
+
+    <item>
+      <title>Base64 Encoder/Decoder - Free Base64 Tool</title>
+      <link>https://toolshub.builders/tools/base64-encoder-decoder</link>
+      <guid>https://toolshub.builders/tools/base64-encoder-decoder</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online Base64 encoder and decoder. Convert text and data to Base64 format instantly. No signup required.</description>
+      <category>developer-tools</category>
+    </item>
+
+    <item>
+      <title>HTML Minifier - Compress HTML Code</title>
+      <link>https://toolshub.builders/tools/html-minifier</link>
+      <guid>https://toolshub.builders/tools/html-minifier</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online HTML minifier. Compress HTML code, remove whitespace and comments to reduce file size for faster loading.</description>
+      <category>developer-tools</category>
+    </item>
+
+    <item>
+      <title>CSS Minifier - Compress CSS Code</title>
+      <link>https://toolshub.builders/tools/css-minifier</link>
+      <guid>https://toolshub.builders/tools/css-minifier</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online CSS minifier. Compress CSS code, remove whitespace and comments to reduce file size for faster loading.</description>
+      <category>developer-tools</category>
+    </item>
+
+    <item>
+      <title>JWT Decoder - Decode JSON Web Tokens</title>
+      <link>https://toolshub.builders/tools/jwt-decoder</link>
+      <guid>https://toolshub.builders/tools/jwt-decoder</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online JWT decoder. Decode and inspect JSON Web Tokens, view header and payload data instantly.</description>
+      <category>developer-tools</category>
+    </item>
+
+    <!-- Image Tools -->
+    <item>
+      <title>Image to Base64 - Convert Images Online</title>
+      <link>https://toolshub.builders/tools/image-to-base64</link>
+      <guid>https://toolshub.builders/tools/image-to-base64</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online image to Base64 converter. Convert PNG, JPG, GIF, WebP images to Base64 strings instantly.</description>
+      <category>image-tools</category>
+    </item>
+
+    <item>
+      <title>Image Compressor - Free Image Compression</title>
+      <link>https://toolshub.builders/tools/image-compressor</link>
+      <guid>https://toolshub.builders/tools/image-compressor</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online image compressor. Reduce image file size while maintaining quality. Supports JPG, PNG, WebP formats.</description>
+      <category>image-tools</category>
+    </item>
+
+    <item>
+      <title>PNG to JPG Converter - Convert PNG to JPEG</title>
+      <link>https://toolshub.builders/tools/png-to-jpg</link>
+      <guid>https://toolshub.builders/tools/png-to-jpg</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online PNG to JPG converter. Convert PNG images to JPEG format with quality control options.</description>
+      <category>image-tools</category>
+    </item>
+
+    <item>
+      <title>Resize Image - Image Resizer Online</title>
+      <link>https://toolshub.builders/tools/resize-image</link>
+      <guid>https://toolshub.builders/tools/resize-image</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online image resizer. Resize images to any dimension, maintain aspect ratio, or set custom size.</description>
+      <category>image-tools</category>
+    </item>
+
+    <item>
+      <title>Image Crop Tool - Crop Images Online</title>
+      <link>https://toolshub.builders/tools/image-crop</link>
+      <guid>https://toolshub.builders/tools/image-crop</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free online image crop tool. Crop images to any size or aspect ratio with interactive cropping.</description>
+      <category>image-tools</category>
+    </item>
+
+    <!-- SEO Tools -->
+    <item>
+      <title>Meta Tag Generator - Create SEO Meta Tags</title>
+      <link>https://toolshub.builders/tools/meta-tag-generator</link>
+      <guid>https://toolshub.builders/tools/meta-tag-generator</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free meta tag generator. Create SEO-friendly meta tags, Open Graph, and Twitter card meta tags for your website.</description>
+      <category>seo-tools</category>
+    </item>
+
+    <item>
+      <title>Robots.txt Generator - Create Robots.txt File</title>
+      <link>https://toolshub.builders/tools/robots-generator</link>
+      <guid>https://toolshub.builders/tools/robots-generator</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free robots.txt generator. Create robots.txt files to control search engine crawler access to your website.</description>
+      <category>seo-tools</category>
+    </item>
+
+    <item>
+      <title>Sitemap Generator - Create XML Sitemaps</title>
+      <link>https://toolshub.builders/tools/sitemap-generator</link>
+      <guid>https://toolshub.builders/tools/sitemap-generator</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free XML sitemap generator. Create sitemaps for Google and other search engines to improve your SEO.</description>
+      <category>seo-tools</category>
+    </item>
+
+    <item>
+      <title>Keyword Density Checker - Analyze Keyword Frequency</title>
+      <link>https://toolshub.builders/tools/keyword-density-checker</link>
+      <guid>https://toolshub.builders/tools/keyword-density-checker</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free keyword density checker. Analyze keyword frequency and optimize your content for better SEO rankings.</description>
+      <category>seo-tools</category>
+    </item>
+
+    <item>
+      <title>Open Graph Generator - Create OG Tags</title>
+      <link>https://toolshub.builders/tools/open-graph-generator</link>
+      <guid>https://toolshub.builders/tools/open-graph-generator</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Free Open Graph generator. Create OG meta tags for better social media sharing on Facebook, LinkedIn, and more.</description>
+      <category>seo-tools</category>
     </item>
 
   </channel>

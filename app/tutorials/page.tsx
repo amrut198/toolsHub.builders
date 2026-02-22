@@ -207,6 +207,9 @@ const difficultyColors = {
 export default function TutorialsPage() {
   return (
     <>
+
+      {/* JSON-LD Schema */}
+      <SchemaOrg />
       <Script
         id="tutorials-schema"
         type="application/ld+json"
@@ -329,4 +332,6 @@ function TutorialCard({ tutorial }: TutorialCardProps) {
   )
 }
 
-import { HStack } from '@chakra-ui/react'
+import { HStack } from '@chakra-ui/react';
+import SchemaOrg from '../components/SchemaOrg';
+

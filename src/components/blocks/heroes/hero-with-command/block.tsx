@@ -68,7 +68,7 @@ export const Block = () => {
 
         {/* CTA Buttons */}
         <Flex direction={{ base: 'column', sm: 'row' }} gap="3" alignItems="center" justify="center">
-          <Link href={'/'}>
+          <Link href={'/tools'}>
             <Button
               size="lg"
               px="8"
@@ -86,7 +86,7 @@ export const Block = () => {
               </HStack>
             </Button>
           </Link>
-          <Link href={'/'}>
+          <Link href={'/tools'}>
             <Button
               size="lg"
               px="8"

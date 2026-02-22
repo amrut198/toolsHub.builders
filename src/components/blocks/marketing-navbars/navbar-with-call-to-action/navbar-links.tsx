@@ -4,7 +4,7 @@ import { Link, Stack, type StackProps } from '@chakra-ui/react'
 import { useState } from 'react'
 
 const navItems = [
-  { label: 'Tools', href: '/' },
+  { label: 'Tools', href: '/tools' },
   { label: 'Categories', href: '/' },
   { label: 'New', href: '/' },
   { label: 'Popular', href: '/' },
