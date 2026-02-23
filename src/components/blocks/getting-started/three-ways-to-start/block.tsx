@@ -89,7 +89,7 @@ export function Block() {
                   }}
                   asChild
                 >
-                  <a href={'/tool'}>
+                  <a href={'/tools'}>
                     <Flex align="center" gap={2}>
                       <Text>{step.buttonText}</Text>
                       <FiArrowRight />
@@ -126,7 +126,7 @@ export function Block() {
                   }}
                   asChild
                 >
-                  <a href="/tool">
+                  <a href="/tools">
                     <Flex align="center" gap={2}>
                       <Text>Suggest a Tool</Text>
                       <FiArrowRight />
