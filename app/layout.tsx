@@ -90,7 +90,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="L_6Rg5Hz5yGbl2N_n9MSvjJ2HCY-7uihj3VOcwENPm8" />
         <meta name="msvalidate.01" content="" />
         <meta name="yandex-verification" content="" />
-        <meta name="google-adsense-account" content="ca-pub-7314505581446119">
+        <meta name="google-adsense-account" content="ca-pub-7314505581446119" />
         <script src="https://analytics.ahrefs.com/analytics.js" data-key="YXeUBKP1EN71AowKkazVRw" async></script>
         <script
           dangerouslySetInnerHTML={{
